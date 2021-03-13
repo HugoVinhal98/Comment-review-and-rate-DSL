@@ -1,0 +1,6 @@
+{
+    manual_name: {name},
+    {
+        validation: {isAccepted}
+    }
+}

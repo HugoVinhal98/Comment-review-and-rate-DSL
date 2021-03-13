@@ -1,0 +1,106 @@
+context User {
+
+        constraint checkFirstLetter {
+        check : self.name.firstToUpperCase()==self.name
+
+        message : "Erro na inicial do User"
+
+        fix {
+
+            title : 'Rename to ' + self.name.firstToUpperCase()
+
+            do {
+                self.name:= self.name.firstToUpperCase();
+            }
+        }
+    }
+}
+context Process {
+
+  constraint validarComentario {
+    //check : self.node.forAll(node |node.isAccepted=="yes")
+    check {
+		 
+		if(self.IsAccepted=="yes"){
+			var allNode = self.node.forAll(node |node.isAccepted=="yes");
+			if(allNode==false){
+			return false;}
+		}
+			return true;
+		
+	}
+    message: "Erro: o processo "+self.name+" nao foi aceite"
+		fix {
+			title : 'Validar'
+			do {
+				self.IsAccepted := "no";
+			}
+		}
+  }
+}
+/*pre{
+var reviewTemp:Review;
+}
+context Subject {
+	constraint UniqueName {
+		
+		check {
+		 var allReviews = self.reviewcomment;
+		var reviews = allReviews.select(review|review.eClass().name == "Review");
+		(reviews).println;
+			for(i in reviews){
+				for(j in reviews){
+					if(i.name==j.name and i<>j){
+					reviewTemp=j;
+					return false;
+					}
+				}
+			}
+			return true;
+		}
+
+		message : 'UDT Name should be unique'
+		fix{
+				title: reviewTemp.name + ' -> Choose other Name'
+			do {
+			
+				reviewTemp.name :=UserInput.prompt('Choose other Name', reviewTemp.name);
+			}
+		}	
+	}
+}*/
+pre{
+var gradeTemp:Grade;
+}
+context Subject {
+	constraint UniqueName {
+		
+		check {
+		 var allReviews = self.reviewcomment;
+		var reviews = allReviews.select(review|review.eClass().name == "Review")->asSequence();
+			for(i in reviews){
+				var temp=i.grade->asSequence();
+				for(j in temp){
+					for(k in temp){
+						if(j.name==k.name and j<>k){
+							gradeTemp=k;
+							return false;
+						}
+					}
+				}
+			}
+			return true;
+		}
+
+		message : 'A grade deve ser unica'
+		fix{
+				title: gradeTemp.name + ' -> Choose other Name'
+			do {
+			
+				gradeTemp.name :=UserInput.prompt('Choose other Name', gradeTemp.name);
+			}
+		}	
+	}
+}
+
+

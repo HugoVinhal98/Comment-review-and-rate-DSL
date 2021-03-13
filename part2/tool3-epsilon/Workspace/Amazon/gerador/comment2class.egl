@@ -1,0 +1,47 @@
+package [%=package%].[%=subpack%];
+
+import java.util.List;
+
+public class [%=c.name%] extends ReviewComment {
+
+	private Boolean hasReply;
+	private List<[%=c.process.name.get(0)%]> [%=c.process.name.get(0).firstToLowerCase%]List;
+	private [%=c.user.name%] [%=c.user.name.firstToLowerCase%];
+
+	public [%=c.name%](String texto, [%=c.user.name%] [%=c.user.name.firstToLowerCase%], Boolean hasReply, List<[%=c.process.name.get(0)%]> [%=c.process.name.get(0).firstToLowerCase%]List) {
+		super(texto);
+		this.hasReply = hasReply;
+		this.[%=c.process.name.get(0).firstToLowerCase%]List=[%=c.process.name.get(0).firstToLowerCase%]List;
+		this.[%=c.user.name.firstToLowerCase%]=[%=c.user.name.firstToLowerCase%];
+	}
+
+	public [%=c.user.name%] get[%=c.user.name%]() {
+		return [%=c.user.name.firstToLowerCase%];
+	}
+
+	public void set[%=c.user.name%]([%=c.user.name%] [%=c.user.name.firstToLowerCase%]) {
+		this.[%=c.user.name.firstToLowerCase%] = [%=c.user.name.firstToLowerCase%];
+	}
+	public Boolean getHasReply() {
+		return hasReply;
+	}
+
+	public void setHasReply(Boolean hasReply) {
+		this.hasReply = hasReply;
+	}
+
+	public List<[%=c.process.name.get(0)%]> get[%=c.process.name.get(0)%]List() {
+		return [%=c.process.name.get(0).firstToLowerCase%]List;
+	}
+
+	public void set[%=c.process.name.get(0)%]List(List<[%=c.process.name.get(0)%]> [%=c.process.name.get(0).firstToLowerCase%]List) {
+		this.[%=c.process.name.get(0).firstToLowerCase%]List = [%=c.process.name.get(0).firstToLowerCase%]List;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString() + "hasReply=" + hasReply + "\n";
+	}
+
+
+}

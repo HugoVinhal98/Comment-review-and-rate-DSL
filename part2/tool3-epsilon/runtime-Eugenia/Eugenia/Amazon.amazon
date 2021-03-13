@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amazon:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:amazon="http://www.example.org/amazon" name="Amazon">
+  <subject name="Produto">
+    <publisher name="Publicador">
+      <field name="nome"/>
+      <field name="reputacao"/>
+      <field name="userName"/>
+    </publisher>
+    <reviewcomment xsi:type="amazon:Review" name="Review" maxInterval="5">
+      <attribute name="titulo"/>
+      <attribute name="texto"/>
+      <user name="Avaliador">
+        <field name="nome"/>
+        <field name="foto"/>
+        <field name="morada"/>
+        <field name="userName"/>
+      </user>
+      <grade name="Grade"/>
+    </reviewcomment>
+    <reviewcomment xsi:type="amazon:Comment" name="Comment">
+      <attribute name="texto"/>
+      <user name="Comentador">
+        <field name="nome"/>
+        <field name="userName"/>
+      </user>
+      <process name="Process">
+        <node xsi:type="amazon:Automatic" name="Automatic"/>
+        <node xsi:type="amazon:Manual" name="Manual"/>
+      </process>
+    </reviewcomment>
+    <attribute name="nome"/>
+    <attribute name="preco" type="Integer"/>
+    <attribute name="imagem"/>
+    <attribute name="descricao"/>
+  </subject>
+</amazon:Model>

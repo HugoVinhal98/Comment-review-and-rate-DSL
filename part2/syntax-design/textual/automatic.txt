@@ -1,0 +1,6 @@
+{
+    automatic_name: {name},
+    {
+        validation: {isAccepted}
+    }
+}

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="amazon">
+  <figures name="Default">
+    <descriptors name="ModelFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ModelFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="122" green="207" blue="245"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ModelLabelFigure" text="Model">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ModelSubjectCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureModelLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.0"/>
+      <accessors accessor="getModelSubjectCompartmentFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="SubjectFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="SubjectFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="102" green="255" blue="102"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="SubjectLabelFigure" text="Subject">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="SubjectPublisherCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="SubjectReviewcommentCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="SubjectAttributeCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureSubjectLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.0"/>
+      <accessors accessor="getSubjectPublisherCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
+      <accessors accessor="getSubjectReviewcommentCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.2"/>
+      <accessors accessor="getSubjectAttributeCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.3"/>
+    </descriptors>
+    <descriptors name="FieldFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="FieldFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="51"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="FieldLabelFigure" text="Field"/>
+      </actualFigure>
+      <accessors accessor="getFigureFieldLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="UserFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="UserFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="153" green="255" blue="255"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="UserLabelFigure" text="User">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="UserFieldCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureUserLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.0"/>
+      <accessors accessor="getUserFieldCompartmentFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ReviewFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ReviewFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="153" blue="255"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ReviewLabelFigure" text="Review">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ReviewAttributeCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="ReviewUserCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="ReviewGradeCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureReviewLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.0"/>
+      <accessors accessor="getReviewAttributeCompartmentFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.1"/>
+      <accessors accessor="getReviewUserCompartmentFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.2"/>
+      <accessors accessor="getReviewGradeCompartmentFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.3"/>
+    </descriptors>
+    <descriptors name="CommentFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="CommentFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="153" blue="255"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="CommentLabelFigure" text="Comment">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="CommentAttributeCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="CommentUserCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="CommentProcessCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureCommentLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.0"/>
+      <accessors accessor="getCommentAttributeCompartmentFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.1"/>
+      <accessors accessor="getCommentUserCompartmentFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.2"/>
+      <accessors accessor="getCommentProcessCompartmentFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.3"/>
+    </descriptors>
+    <descriptors name="ProcessFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ProcessFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="102" blue="102"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ProcessLabelFigure" text="Process">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ProcessNodeCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureProcessLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.0"/>
+      <accessors accessor="getProcessNodeCompartmentFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="AutomaticFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="AutomaticFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="204" green="204"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="AutomaticLabelFigure" text="Automatic"/>
+      </actualFigure>
+      <accessors accessor="getFigureAutomaticLabelFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ManualFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ManualFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="204" green="204"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ManualLabelFigure" text="Manual"/>
+      </actualFigure>
+      <accessors accessor="getFigureManualLabelFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="GradeFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="GradeFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="122" green="207" blue="245"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="GradeLabelFigure" text="Grade"/>
+      </actualFigure>
+      <accessors accessor="getFigureGradeLabelFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.0"/>
+    </descriptors>
+  </figures>
+  <nodes name="Model" figure="ModelFigure"/>
+  <nodes name="Subject" figure="SubjectFigure"/>
+  <nodes name="Field" figure="FieldFigure"/>
+  <nodes name="User" figure="UserFigure"/>
+  <nodes name="Review" figure="ReviewFigure"/>
+  <nodes name="Comment" figure="CommentFigure"/>
+  <nodes name="Process" figure="ProcessFigure"/>
+  <nodes name="Automatic" figure="AutomaticFigure"/>
+  <nodes name="Manual" figure="ManualFigure"/>
+  <nodes name="Grade" figure="GradeFigure"/>
+  <compartments name="ModelSubjectCompartment" figure="ModelFigure" collapsible="true" accessor="//@figures.0/@descriptors.0/@accessors.1"/>
+  <compartments name="SubjectPublisherCompartment" figure="SubjectFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
+  <compartments name="SubjectReviewcommentCompartment" figure="SubjectFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.2"/>
+  <compartments name="SubjectAttributeCompartment" figure="SubjectFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.3"/>
+  <compartments name="UserFieldCompartment" figure="UserFigure" collapsible="true" accessor="//@figures.0/@descriptors.3/@accessors.1"/>
+  <compartments name="ReviewAttributeCompartment" figure="ReviewFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.1"/>
+  <compartments name="ReviewUserCompartment" figure="ReviewFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.2"/>
+  <compartments name="ReviewGradeCompartment" figure="ReviewFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.3"/>
+  <compartments name="CommentAttributeCompartment" figure="CommentFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.1"/>
+  <compartments name="CommentUserCompartment" figure="CommentFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.2"/>
+  <compartments name="CommentProcessCompartment" figure="CommentFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.3"/>
+  <compartments name="ProcessNodeCompartment" figure="ProcessFigure" collapsible="true" accessor="//@figures.0/@descriptors.6/@accessors.1"/>
+  <labels name="ModelLabel" figure="ModelFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="SubjectLabel" figure="SubjectFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>
+  <labels name="FieldLabel" figure="FieldFigure" accessor="//@figures.0/@descriptors.2/@accessors.0"/>
+  <labels name="UserLabel" figure="UserFigure" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="ReviewLabel" figure="ReviewFigure" accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels name="CommentLabel" figure="CommentFigure" accessor="//@figures.0/@descriptors.5/@accessors.0"/>
+  <labels name="ProcessLabel" figure="ProcessFigure" accessor="//@figures.0/@descriptors.6/@accessors.0"/>
+  <labels name="AutomaticLabel" figure="AutomaticFigure" accessor="//@figures.0/@descriptors.7/@accessors.0"/>
+  <labels name="ManualLabel" figure="ManualFigure" accessor="//@figures.0/@descriptors.8/@accessors.0"/>
+  <labels name="GradeLabel" figure="GradeFigure" accessor="//@figures.0/@descriptors.9/@accessors.0"/>
+</gmfgraph:Canvas>

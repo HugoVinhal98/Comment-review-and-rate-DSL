@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,28,0" name="EDOM.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:24cc4b2d-8303-4892-a788-3e484b8e8944(EDOM.typesystem)/4436135969624842111">
+    <file name="TypesystemDescriptor.java">
+      <node id="4436135969624842111" at="22,5,23,97" concept="5" />
+      <node id="4436135969624842111" at="23,97,24,55" concept="2" />
+      <node id="4436135969624842111" at="21,5,25,5" concept="0" />
+      <scope id="4436135969624842111" at="22,5,24,55">
+        <var name="nonTypesystemRule" id="4436135969624842111" />
+      </scope>
+    </file>
+    <file name="isApprovedOrRejected_NonTypesystemRule.java">
+      <node id="4436135969624850330" at="24,7,25,66" concept="5" />
+      <node id="4436135969624850330" at="25,66,26,232" concept="5" />
+      <node id="4436135969624842111" at="30,50,31,28" concept="6" />
+      <node id="4436135969624842111" at="33,68,34,102" concept="6" />
+      <node id="4436135969624842111" at="36,30,37,17" concept="6" />
+      <node id="4436135969624842111" at="41,0,42,0" concept="7" trace="isAccepted$AH2N" />
+      <node id="4436135969624842111" at="45,0,46,0" concept="7" trace="Node$nY" />
+      <node id="4436135969624842111" at="20,0,22,0" concept="1" trace="isApprovedOrRejected_NonTypesystemRule#()V" />
+      <node id="4436135969624842111" at="30,0,33,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4436135969624842111" at="33,0,36,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4436135969624842111" at="36,0,39,0" concept="4" trace="overrides#()Z" />
+      <node id="4436135969624850330" at="23,175,27,7" concept="0" />
+      <node id="4436135969624842123" at="22,117,28,5" concept="3" />
+      <node id="4436135969624842111" at="22,0,30,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4436135969624842111" at="20,51,20,51" />
+      <scope id="4436135969624842111" at="30,50,31,28" />
+      <scope id="4436135969624842111" at="33,68,34,102" />
+      <scope id="4436135969624842111" at="36,30,37,17" />
+      <scope id="4436135969624842111" at="20,0,22,0" />
+      <scope id="4436135969624850330" at="24,7,26,232">
+        <var name="_reporter_2309309498" id="4436135969624850330" />
+        <var name="errorTarget" id="4436135969624850330" />
+      </scope>
+      <scope id="4436135969624842111" at="30,0,33,0" />
+      <scope id="4436135969624842111" at="33,0,36,0">
+        <var name="argument" id="4436135969624842111" />
+      </scope>
+      <scope id="4436135969624842111" at="36,0,39,0" />
+      <scope id="4436135969624842125" at="23,175,27,7" />
+      <scope id="4436135969624842112" at="22,117,28,5" />
+      <scope id="4436135969624842111" at="22,0,30,0">
+        <var name="node" id="4436135969624842111" />
+        <var name="status" id="4436135969624842111" />
+        <var name="typeCheckingContext" id="4436135969624842111" />
+      </scope>
+      <unit id="4436135969624842111" at="40,0,43,0" name="EDOM.typesystem.isApprovedOrRejected_NonTypesystemRule$PROPS" />
+      <unit id="4436135969624842111" at="44,0,47,0" name="EDOM.typesystem.isApprovedOrRejected_NonTypesystemRule$CONCEPTS" />
+      <unit id="4436135969624842111" at="19,0,48,0" name="EDOM.typesystem.isApprovedOrRejected_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:24cc4b2d-8303-4892-a788-3e484b8e8944(EDOM.typesystem)/5090657746498898233">
+    <file name="IsUpperCase_NonTypesystemRule.java">
+      <node id="5090657746498906440" at="25,7,26,66" concept="5" />
+      <node id="5090657746498906440" at="26,66,27,228" concept="5" />
+      <node id="5090657746498926032" at="28,9,29,147" concept="5" />
+      <node id="5090657746498926032" at="29,147,30,71" concept="2" />
+      <node id="5090657746498898233" at="35,50,36,28" concept="6" />
+      <node id="5090657746498898233" at="38,68,39,102" concept="6" />
+      <node id="5090657746498898233" at="41,30,42,17" concept="6" />
+      <node id="5090657746498898233" at="46,0,47,0" concept="7" trace="name$MnvL" />
+      <node id="5090657746498898233" at="50,0,51,0" concept="7" trace="User$mF" />
+      <node id="5090657746498898233" at="21,0,23,0" concept="1" trace="IsUpperCase_NonTypesystemRule#()V" />
+      <node id="5090657746498898233" at="35,0,38,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5090657746498898233" at="38,0,41,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="5090657746498898233" at="41,0,44,0" concept="4" trace="overrides#()Z" />
+      <node id="5090657746498926032" at="27,228,31,9" concept="0" />
+      <node id="5090657746498906440" at="24,96,32,7" concept="0" />
+      <node id="5090657746498901504" at="23,117,33,5" concept="3" />
+      <node id="5090657746498898233" at="23,0,35,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="5090657746498898233" at="21,42,21,42" />
+      <scope id="5090657746498898233" at="35,50,36,28" />
+      <scope id="5090657746498898233" at="38,68,39,102" />
+      <scope id="5090657746498898233" at="41,30,42,17" />
+      <scope id="5090657746498898233" at="21,0,23,0" />
+      <scope id="5090657746498926032" at="28,9,30,71">
+        <var name="intentionProvider" id="5090657746498926032" />
+      </scope>
+      <scope id="5090657746498898233" at="35,0,38,0" />
+      <scope id="5090657746498898233" at="38,0,41,0">
+        <var name="argument" id="5090657746498898233" />
+      </scope>
+      <scope id="5090657746498898233" at="41,0,44,0" />
+      <scope id="5090657746498906440" at="25,7,31,9">
+        <var name="_reporter_2309309498" id="5090657746498906440" />
+        <var name="errorTarget" id="5090657746498906440" />
+      </scope>
+      <scope id="5090657746498901506" at="24,96,32,7" />
+      <scope id="5090657746498898234" at="23,117,33,5" />
+      <scope id="5090657746498898233" at="23,0,35,0">
+        <var name="status" id="5090657746498898233" />
+        <var name="typeCheckingContext" id="5090657746498898233" />
+        <var name="user" id="5090657746498898233" />
+      </scope>
+      <unit id="5090657746498898233" at="45,0,48,0" name="EDOM.typesystem.IsUpperCase_NonTypesystemRule$PROPS" />
+      <unit id="5090657746498898233" at="49,0,52,0" name="EDOM.typesystem.IsUpperCase_NonTypesystemRule$CONCEPTS" />
+      <unit id="5090657746498898233" at="20,0,53,0" name="EDOM.typesystem.IsUpperCase_NonTypesystemRule" />
+    </file>
+    <file name="TypesystemDescriptor.java">
+      <node id="5090657746498898233" at="14,5,15,88" concept="5" />
+      <node id="5090657746498898233" at="15,88,16,55" concept="2" />
+      <node id="5090657746498898233" at="13,5,17,5" concept="0" />
+      <scope id="5090657746498898233" at="14,5,16,55">
+        <var name="nonTypesystemRule" id="5090657746498898233" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:24cc4b2d-8303-4892-a788-3e484b8e8944(EDOM.typesystem)/5090657746498898332">
+    <file name="SetUpperCase_QuickFix.java">
+      <node id="5090657746498898332" at="16,34,17,110" concept="8" />
+      <node id="5090657746498928609" at="19,44,20,50" concept="6" />
+      <node id="5090657746498907066" at="22,35,23,400" concept="2" />
+      <node id="5090657746498898332" at="27,0,28,0" concept="7" trace="User$mF" />
+      <node id="5090657746498898332" at="31,0,32,0" concept="7" trace="name$MnvL" />
+      <node id="5090657746498898332" at="16,0,19,0" concept="1" trace="SetUpperCase_QuickFix#()V" />
+      <node id="5090657746498898332" at="19,0,22,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5090657746498898332" at="22,0,25,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="5090657746498898332" at="16,34,17,110" />
+      <scope id="5090657746498928317" at="19,44,20,50" />
+      <scope id="5090657746498898334" at="22,35,23,400" />
+      <scope id="5090657746498898332" at="16,0,19,0" />
+      <scope id="5090657746498898332" at="19,0,22,0">
+        <var name="node" id="5090657746498898332" />
+      </scope>
+      <scope id="5090657746498898332" at="22,0,25,0">
+        <var name="node" id="5090657746498898332" />
+      </scope>
+      <unit id="5090657746498898332" at="26,0,29,0" name="EDOM.typesystem.SetUpperCase_QuickFix$CONCEPTS" />
+      <unit id="5090657746498898332" at="30,0,33,0" name="EDOM.typesystem.SetUpperCase_QuickFix$PROPS" />
+      <unit id="5090657746498898332" at="15,0,34,0" name="EDOM.typesystem.SetUpperCase_QuickFix" />
+    </file>
+  </root>
+  <root nodeRef="r:24cc4b2d-8303-4892-a788-3e484b8e8944(EDOM.typesystem)/5698975515763756249">
+    <file name="CheckIsValid_NonTypesystemRule.java">
+      <node id="4436135969624542022" at="25,7,26,66" concept="5" />
+      <node id="4436135969624542022" at="26,66,27,247" concept="5" />
+      <node id="4436135969624768647" at="28,9,29,148" concept="5" />
+      <node id="4436135969624768647" at="29,148,30,71" concept="2" />
+      <node id="5698975515763756249" at="35,50,36,28" concept="6" />
+      <node id="5698975515763756249" at="38,68,39,102" concept="6" />
+      <node id="5698975515763756249" at="41,30,42,17" concept="6" />
+      <node id="5698975515763756249" at="46,0,47,0" concept="7" trace="isAccepted$AH2N" />
+      <node id="5698975515763756249" at="50,0,51,0" concept="7" trace="Node$nY" />
+      <node id="5698975515763756249" at="21,0,23,0" concept="1" trace="CheckIsValid_NonTypesystemRule#()V" />
+      <node id="5698975515763756249" at="35,0,38,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5698975515763756249" at="38,0,41,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="5698975515763756249" at="41,0,44,0" concept="4" trace="overrides#()Z" />
+      <node id="4436135969624768647" at="27,247,31,9" concept="0" />
+      <node id="4436135969624542022" at="24,88,32,7" concept="0" />
+      <node id="5698975515763756261" at="23,117,33,5" concept="3" />
+      <node id="5698975515763756249" at="23,0,35,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="5698975515763756249" at="21,43,21,43" />
+      <scope id="5698975515763756249" at="35,50,36,28" />
+      <scope id="5698975515763756249" at="38,68,39,102" />
+      <scope id="5698975515763756249" at="41,30,42,17" />
+      <scope id="5698975515763756249" at="21,0,23,0" />
+      <scope id="4436135969624768647" at="28,9,30,71">
+        <var name="intentionProvider" id="4436135969624768647" />
+      </scope>
+      <scope id="5698975515763756249" at="35,0,38,0" />
+      <scope id="5698975515763756249" at="38,0,41,0">
+        <var name="argument" id="5698975515763756249" />
+      </scope>
+      <scope id="5698975515763756249" at="41,0,44,0" />
+      <scope id="4436135969624542022" at="25,7,31,9">
+        <var name="_reporter_2309309498" id="4436135969624542022" />
+        <var name="errorTarget" id="4436135969624542022" />
+      </scope>
+      <scope id="5698975515763756263" at="24,88,32,7" />
+      <scope id="5698975515763756250" at="23,117,33,5" />
+      <scope id="5698975515763756249" at="23,0,35,0">
+        <var name="node" id="5698975515763756249" />
+        <var name="status" id="5698975515763756249" />
+        <var name="typeCheckingContext" id="5698975515763756249" />
+      </scope>
+      <unit id="5698975515763756249" at="45,0,48,0" name="EDOM.typesystem.CheckIsValid_NonTypesystemRule$PROPS" />
+      <unit id="5698975515763756249" at="49,0,52,0" name="EDOM.typesystem.CheckIsValid_NonTypesystemRule$CONCEPTS" />
+      <unit id="5698975515763756249" at="20,0,53,0" name="EDOM.typesystem.CheckIsValid_NonTypesystemRule" />
+    </file>
+    <file name="TypesystemDescriptor.java">
+      <node id="5698975515763756249" at="10,5,11,89" concept="5" />
+      <node id="5698975515763756249" at="11,89,12,55" concept="2" />
+      <node id="5698975515763756249" at="9,33,13,5" concept="0" />
+      <scope id="5698975515763756249" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="5698975515763756249" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:24cc4b2d-8303-4892-a788-3e484b8e8944(EDOM.typesystem)/5698975515764237660">
+    <file name="setValidation_QuickFix.java">
+      <node id="5698975515764237660" at="15,35,16,110" concept="8" />
+      <node id="5698975515764238716" at="18,44,19,40" concept="6" />
+      <node id="4436135969624542132" at="21,35,22,110" concept="2" />
+      <node id="5698975515764237660" at="26,0,27,0" concept="7" trace="Node$nY" />
+      <node id="5698975515764237660" at="30,0,31,0" concept="7" trace="isAccepted$AH2N" />
+      <node id="5698975515764237660" at="15,0,18,0" concept="1" trace="setValidation_QuickFix#()V" />
+      <node id="5698975515764237660" at="18,0,21,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5698975515764237660" at="21,0,24,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="5698975515764237660" at="15,35,16,110" />
+      <scope id="5698975515764238693" at="18,44,19,40" />
+      <scope id="5698975515764237662" at="21,35,22,110" />
+      <scope id="5698975515764237660" at="15,0,18,0" />
+      <scope id="5698975515764237660" at="18,0,21,0">
+        <var name="node" id="5698975515764237660" />
+      </scope>
+      <scope id="5698975515764237660" at="21,0,24,0">
+        <var name="node" id="5698975515764237660" />
+      </scope>
+      <unit id="5698975515764237660" at="25,0,28,0" name="EDOM.typesystem.setValidation_QuickFix$CONCEPTS" />
+      <unit id="5698975515764237660" at="29,0,32,0" name="EDOM.typesystem.setValidation_QuickFix$PROPS" />
+      <unit id="5698975515764237660" at="14,0,33,0" name="EDOM.typesystem.setValidation_QuickFix" />
+    </file>
+  </root>
+  <root nodeRef="r:24cc4b2d-8303-4892-a788-3e484b8e8944(EDOM.typesystem)/6817482973832292677">
+    <file name="TypesystemDescriptor.java">
+      <node id="6817482973832292677" at="18,5,19,92" concept="5" />
+      <node id="6817482973832292677" at="19,92,20,55" concept="2" />
+      <node id="6817482973832292677" at="17,5,21,5" concept="0" />
+      <scope id="6817482973832292677" at="18,5,20,55">
+        <var name="nonTypesystemRule" id="6817482973832292677" />
+      </scope>
+    </file>
+    <file name="UniqueGradeName_NonTypesystemRule.java">
+      <node id="6817482973832440458" at="30,38,31,66" concept="6" />
+      <node id="6817482973832440467" at="34,40,35,92" concept="6" />
+      <node id="6817482973832389873" at="38,7,39,66" concept="5" />
+      <node id="6817482973832389873" at="39,66,40,227" concept="5" />
+      <node id="6817482973832399294" at="41,9,42,151" concept="5" />
+      <node id="6817482973832399294" at="42,151,43,71" concept="2" />
+      <node id="6817482973832292677" at="48,50,49,29" concept="6" />
+      <node id="6817482973832292677" at="51,68,52,102" concept="6" />
+      <node id="6817482973832292677" at="54,30,55,17" concept="6" />
+      <node id="6817482973832292677" at="59,0,60,0" concept="7" trace="Grade$Yz" />
+      <node id="6817482973832292677" at="63,0,64,0" concept="7" trace="name$MnvL" />
+      <node id="6817482973832292677" at="26,0,28,0" concept="1" trace="UniqueGradeName_NonTypesystemRule#()V" />
+      <node id="6817482973832440456" at="30,0,33,0" concept="4" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="6817482973832440465" at="34,0,37,0" concept="4" trace="accept#(Ljava/lang/String;)Z" />
+      <node id="6817482973832292677" at="48,0,51,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6817482973832292677" at="51,0,54,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6817482973832292677" at="54,0,57,0" concept="4" trace="overrides#()Z" />
+      <node id="6817482973832399294" at="40,227,44,9" concept="0" />
+      <node id="6817482973832389873" at="37,10,45,7" concept="0" />
+      <node id="6817482973832292689" at="28,118,46,5" concept="3" />
+      <node id="6817482973832292677" at="28,0,48,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6817482973832292677" at="26,46,26,46" />
+      <scope id="6817482973832440457" at="30,38,31,66" />
+      <scope id="6817482973832440466" at="34,40,35,92" />
+      <scope id="6817482973832292677" at="48,50,49,29" />
+      <scope id="6817482973832292677" at="51,68,52,102" />
+      <scope id="6817482973832292677" at="54,30,55,17" />
+      <scope id="6817482973832292677" at="26,0,28,0" />
+      <scope id="6817482973832399294" at="41,9,43,71">
+        <var name="intentionProvider" id="6817482973832399294" />
+      </scope>
+      <scope id="6817482973832440456" at="30,0,33,0">
+        <var name="it" id="6817482973832440456" />
+      </scope>
+      <scope id="6817482973832440465" at="34,0,37,0">
+        <var name="it" id="6817482973832440465" />
+      </scope>
+      <scope id="6817482973832292677" at="48,0,51,0" />
+      <scope id="6817482973832292677" at="51,0,54,0">
+        <var name="argument" id="6817482973832292677" />
+      </scope>
+      <scope id="6817482973832292677" at="54,0,57,0" />
+      <scope id="6817482973832389873" at="38,7,44,9">
+        <var name="_reporter_2309309498" id="6817482973832389873" />
+        <var name="errorTarget" id="6817482973832389873" />
+      </scope>
+      <scope id="6817482973832292691" at="37,10,45,7" />
+      <scope id="6817482973832292678" at="28,118,46,5" />
+      <scope id="6817482973832292677" at="28,0,48,0">
+        <var name="grade" id="6817482973832292677" />
+        <var name="status" id="6817482973832292677" />
+        <var name="typeCheckingContext" id="6817482973832292677" />
+      </scope>
+      <unit id="6817482973832292677" at="58,0,61,0" name="EDOM.typesystem.UniqueGradeName_NonTypesystemRule$CONCEPTS" />
+      <unit id="6817482973832292677" at="62,0,65,0" name="EDOM.typesystem.UniqueGradeName_NonTypesystemRule$PROPS" />
+      <unit id="6817482973832440456" at="29,135,33,5" name="EDOM.typesystem.UniqueGradeName_NonTypesystemRule$1" />
+      <unit id="6817482973832440465" at="33,15,37,5" name="EDOM.typesystem.UniqueGradeName_NonTypesystemRule$2" />
+      <unit id="6817482973832292677" at="25,0,66,0" name="EDOM.typesystem.UniqueGradeName_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:24cc4b2d-8303-4892-a788-3e484b8e8944(EDOM.typesystem)/6817482973832389998">
+    <file name="setNewUniqueName_QuickFix.java">
+      <node id="6817482973832389998" at="16,38,17,110" concept="8" />
+      <node id="6817482973832398896" at="19,44,20,35" concept="6" />
+      <node id="6817482973832390018" at="22,35,23,183" concept="2" />
+      <node id="6817482973832389998" at="27,0,28,0" concept="7" trace="Grade$Yz" />
+      <node id="6817482973832389998" at="31,0,32,0" concept="7" trace="name$MnvL" />
+      <node id="6817482973832389998" at="16,0,19,0" concept="1" trace="setNewUniqueName_QuickFix#()V" />
+      <node id="6817482973832389998" at="19,0,22,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="6817482973832389998" at="22,0,25,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="6817482973832389998" at="16,38,17,110" />
+      <scope id="6817482973832398600" at="19,44,20,35" />
+      <scope id="6817482973832390000" at="22,35,23,183" />
+      <scope id="6817482973832389998" at="16,0,19,0" />
+      <scope id="6817482973832389998" at="19,0,22,0">
+        <var name="node" id="6817482973832389998" />
+      </scope>
+      <scope id="6817482973832389998" at="22,0,25,0">
+        <var name="node" id="6817482973832389998" />
+      </scope>
+      <unit id="6817482973832389998" at="26,0,29,0" name="EDOM.typesystem.setNewUniqueName_QuickFix$CONCEPTS" />
+      <unit id="6817482973832389998" at="30,0,33,0" name="EDOM.typesystem.setNewUniqueName_QuickFix$PROPS" />
+      <unit id="6817482973832389998" at="15,0,34,0" name="EDOM.typesystem.setNewUniqueName_QuickFix" />
+    </file>
+  </root>
+</debug-info>
+

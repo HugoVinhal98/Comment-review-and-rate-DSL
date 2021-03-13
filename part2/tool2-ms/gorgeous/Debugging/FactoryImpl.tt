@@ -1,0 +1,52 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" language="Java" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".java" #>
+<#@ gorgeous processor="gorgeousDirectiveProcessor" requires="fileName='Sample.gorgeous'" #>
+
+package factory;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.GorgeousSandwich;
+import model.<#=this.Model.Comment[0].Name#>;
+import model.<#=this.Model.Subject[0].Name#>;
+import model.<#=this.Model.Review[0].Name#>;
+import model.<#=this.Model.ReviewComment[0].Name#>;
+import model.<#=this.Model.Comment[0].User[0].Name#>;
+
+public class FactoryImpl implements Factory {
+
+	public GorgeousSandwich bootstrap() {
+		// TODO Auto-generated method stub
+
+		<#=this.Model.Comment[0].User[0].Name#> user1 = new <#=this.Model.Comment[0].User[0].Name#>("Student", 1122334);
+		<#=this.Model.Comment[0].User[0].Name#> user2 = new <#=this.Model.Comment[0].User[0].Name#>("Visitor", 1234567);
+
+		<#=this.Model.Comment[0].Name#> comment1 = new <#=this.Model.Comment[0].Name#>("<#=this.Model.Subject[0].Name#> muito bom", user1, false);
+		<#=this.Model.Comment[0].Name#> comment2 = new <#=this.Model.Comment[0].Name#>("<#=this.Model.Subject[0].Name#> pessimo", user2, false);
+
+		<#=this.Model.Review[0].Name#> review1 = new <#=this.Model.Review[0].Name#>("Excelente", "Excelente sandwich", 5, 0);
+		<#=this.Model.Review[0].Name#> review2 = new <#=this.Model.Review[0].Name#>("Pessimo", "O sandwich estava sem queijo",  5, 0);
+
+		List<<#=this.Model.ReviewComment[0].Name#>> listReviewsComment1 = new ArrayList<<#=this.Model.ReviewComment[0].Name#>>();
+		listReviewsComment1.add(review1);
+		listReviewsComment1.add(comment1);
+
+		List<<#=this.Model.ReviewComment[0].Name#>> listReviewsComment2 = new ArrayList<<#=this.Model.ReviewComment[0].Name#>>();
+		listReviewsComment2.add(review2);
+		listReviewsComment2.add(comment2);
+
+		<#=this.Model.Subject[0].Name#> sandwich1 = new <#=this.Model.Subject[0].Name#>("X-Tudo", "Salgado", 7, "imagem.png", "tem tudo",  listReviewsComment1);
+		<#=this.Model.Subject[0].Name#> sandwich2 = new <#=this.Model.Subject[0].Name#>("Bomba", "Salgado", 10, "imagem1.png", "tem tudo e mais um pouco", listReviewsComment2);
+
+		List<<#=this.Model.Subject[0].Name#>> listSandwich = new ArrayList<<#=this.Model.Subject[0].Name#>>();
+		listSandwich.add(sandwich1);
+		listSandwich.add(sandwich2);
+
+		return new GorgeousSandwich(listSandwich);
+	}
+}

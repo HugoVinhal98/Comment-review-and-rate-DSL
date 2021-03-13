@@ -1,0 +1,8 @@
+{
+    subject_name: {name},
+    {
+        attributes: {attributesArray},
+        publishers: {usersNamesArray},
+        reviews_comments: {reviewsCommentsArray}
+    }
+}

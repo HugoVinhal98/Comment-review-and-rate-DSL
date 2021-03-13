@@ -1,0 +1,32 @@
+﻿<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\1033\gorgeous</RelativePathOnDisk>
+    <TemplateFileName>CSharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{ff0823ef-da1a-4e8e-959f-061f1de08a08}</TemplateID>
+        <Name Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="103" />
+        <Description Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="102" />
+        <Icon Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="201" />
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>gorgeous.gorgeous</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>VisualBasic\1033\gorgeous</RelativePathOnDisk>
+    <TemplateFileName>VisualBasic.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{2996d91c-bf57-4418-8437-a3f9fe433288}</TemplateID>
+        <Name Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="103" />
+        <Description Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="102" />
+        <Icon Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="201" />
+        <ProjectType>VisualBasic</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>gorgeous.gorgeous</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

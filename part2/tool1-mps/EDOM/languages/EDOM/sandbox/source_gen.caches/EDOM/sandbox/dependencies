@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="EDOM.sandbox.Comment1">
+    <classNode dependClassName="EDOM.sandbox.Commentator" />
+    <classNode dependClassName="EDOM.sandbox.Process1" />
+    <classNode dependClassName="java.lang.Boolean" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode extendsClassName="EDOM.sandbox.ReviewComment" />
+  </dependency>
+  <dependency className="EDOM.sandbox.Commentator">
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="EDOM.sandbox.Manual1">
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="EDOM.sandbox.Node" />
+  </dependency>
+  <dependency className="EDOM.sandbox.News">
+    <classNode dependClassName="EDOM.sandbox.Publisher" />
+    <classNode dependClassName="EDOM.sandbox.ReviewComment" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+  </dependency>
+  <dependency className="EDOM.sandbox.Node">
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="EDOM.sandbox.Process1">
+    <classNode dependClassName="EDOM.sandbox.Node" />
+    <classNode dependClassName="java.util.List" />
+  </dependency>
+  <dependency className="EDOM.sandbox.Publico">
+    <classNode dependClassName="EDOM.sandbox.News" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+  </dependency>
+  <dependency className="EDOM.sandbox.Publisher">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="EDOM.sandbox.ReviewComment">
+    <classNode dependClassName="EDOM.sandbox.Commentator" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+</dependenciesRoot>
+

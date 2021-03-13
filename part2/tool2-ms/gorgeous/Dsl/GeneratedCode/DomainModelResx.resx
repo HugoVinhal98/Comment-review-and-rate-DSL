@@ -1,0 +1,1643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="isep.edom.gorgeous.gorgeousDomainModel.Description" xml:space="preserve">
+    <value>Description for isep.edom.gorgeous.gorgeous</value>
+    <comment>Description for DslLibrary &apos;gorgeous&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.gorgeousDomainModel.DisplayName" xml:space="preserve">
+    <value>gorgeous</value>
+    <comment>DisplayName for DslLibrary &apos;gorgeous&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Model.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;Model&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainClass &apos;Model&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Model/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Model.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Model&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Model/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Model&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.User.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.User</value>
+    <comment>Description for DomainClass &apos;User&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.User.DisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>DisplayName for DomainClass &apos;User&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.User/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.User.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;User&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.User/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;User&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Subject.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Subject</value>
+    <comment>Description for DomainClass &apos;Subject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Subject.DisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>DisplayName for DomainClass &apos;Subject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Subject/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Subject.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Subject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Subject/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Subject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Review.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Review</value>
+    <comment>Description for DomainClass &apos;Review&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Review.DisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>DisplayName for DomainClass &apos;Review&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Review/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Review.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Review&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Review/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Review&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Comment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Comment</value>
+    <comment>Description for DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Comment/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Comment.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Comment/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Field.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Field</value>
+    <comment>Description for DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Field/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Field.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Field/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Field/Type.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Field.Type</value>
+    <comment>Description for DomainProperty &apos;Type&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Field/Type.DisplayName" xml:space="preserve">
+    <value>Type</value>
+    <comment>DisplayName for DomainProperty &apos;Type&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewComment</value>
+    <comment>Description for DomainClass &apos;ReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewComment.DisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>DisplayName for DomainClass &apos;ReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewComment/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewComment.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;ReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewComment/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;ReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Process.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Process</value>
+    <comment>Description for DomainClass &apos;Process&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Process.DisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>DisplayName for DomainClass &apos;Process&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Process/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Process.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Process&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Process/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Process&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Node.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Node</value>
+    <comment>Description for DomainClass &apos;Node&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Node.DisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>DisplayName for DomainClass &apos;Node&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Node/Name.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Node.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Node&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Node/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Node&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Automatic.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Automatic</value>
+    <comment>Description for DomainClass &apos;Automatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Automatic.DisplayName" xml:space="preserve">
+    <value>Automatic</value>
+    <comment>DisplayName for DomainClass &apos;Automatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Manual.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.Manual</value>
+    <comment>Description for DomainClass &apos;Manual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.Manual.DisplayName" xml:space="preserve">
+    <value>Manual</value>
+    <comment>DisplayName for DomainClass &apos;Manual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemUser.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemUser</value>
+    <comment>Description for DomainClass &apos;ModelTemUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemUser.DisplayName" xml:space="preserve">
+    <value>Model Tem User</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemUser/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemUser.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemUser/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemUser/Model.PropertyDisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemUser/User.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemUser.User</value>
+    <comment>Description for DomainRole &apos;User&apos; on DomainRelationship &apos;ModelTemUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemUser/User.DisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>DisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;ModelTemUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemUser/User.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;ModelTemUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemSubject.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemSubject</value>
+    <comment>Description for DomainClass &apos;ModelTemSubject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemSubject.DisplayName" xml:space="preserve">
+    <value>Model Tem Subject</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemSubject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemSubject/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemSubject.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemSubject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemSubject/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemSubject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemSubject/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemSubject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemSubject/Subject.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemSubject.Subject</value>
+    <comment>Description for DomainRole &apos;Subject&apos; on DomainRelationship &apos;ModelTemSubject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemSubject/Subject.DisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>DisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;ModelTemSubject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemSubject/Subject.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;ModelTemSubject&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReview.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemReview</value>
+    <comment>Description for DomainClass &apos;ModelTemReview&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReview.DisplayName" xml:space="preserve">
+    <value>Model Tem Review</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemReview&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReview/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemReview.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemReview&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReview/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemReview&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReview/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemReview&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReview/Review.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemReview.Review</value>
+    <comment>Description for DomainRole &apos;Review&apos; on DomainRelationship &apos;ModelTemReview&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReview/Review.DisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>DisplayName for DomainRole &apos;Review&apos; on DomainRelationship &apos;ModelTemReview&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReview/Review.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Review&apos; on DomainRelationship &apos;ModelTemReview&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemComment</value>
+    <comment>Description for DomainClass &apos;ModelTemComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemComment.DisplayName" xml:space="preserve">
+    <value>Model Tem Comment</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemComment/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemComment.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemComment/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemComment/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemComment/Comment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemComment.Comment</value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ModelTemComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemComment/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ModelTemComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemComment/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ModelTemComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemField.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemField</value>
+    <comment>Description for DomainClass &apos;ModelTemField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemField.DisplayName" xml:space="preserve">
+    <value>Model Tem Field</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemField/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemField.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemField/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemField/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemField/Field.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemField.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;ModelTemField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemField/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;ModelTemField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemField/Field.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;ModelTemField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasUser.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasUser</value>
+    <comment>Description for DomainClass &apos;SubjectReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasUser.DisplayName" xml:space="preserve">
+    <value>Subject Referências User</value>
+    <comment>DisplayName for DomainClass &apos;SubjectReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasUser/Subject.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasUser.Subject</value>
+    <comment>Description for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasUser/Subject.DisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>DisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasUser/Subject.PropertyDisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasUser/User.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasUser.User</value>
+    <comment>Description for DomainRole &apos;User&apos; on DomainRelationship &apos;SubjectReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasUser/User.DisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>DisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;SubjectReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasUser/User.PropertyDisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>PropertyDisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;SubjectReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasUser.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasUser</value>
+    <comment>Description for DomainClass &apos;ReviewReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasUser.DisplayName" xml:space="preserve">
+    <value>Review Referências User</value>
+    <comment>DisplayName for DomainClass &apos;ReviewReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasUser/Review.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasUser.Review</value>
+    <comment>Description for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasUser/Review.DisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>DisplayName for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasUser/Review.PropertyDisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasUser/User.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasUser.User</value>
+    <comment>Description for DomainRole &apos;User&apos; on DomainRelationship &apos;ReviewReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasUser/User.DisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>DisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;ReviewReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasUser/User.PropertyDisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>PropertyDisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;ReviewReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasUser.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasUser</value>
+    <comment>Description for DomainClass &apos;CommentReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasUser.DisplayName" xml:space="preserve">
+    <value>Comment Referências User</value>
+    <comment>DisplayName for DomainClass &apos;CommentReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasUser/Comment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasUser.Comment</value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasUser/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasUser/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasUser/User.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasUser.User</value>
+    <comment>Description for DomainRole &apos;User&apos; on DomainRelationship &apos;CommentReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasUser/User.DisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>DisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;CommentReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasUser/User.PropertyDisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;CommentReferênciasUser&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasField.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasField</value>
+    <comment>Description for DomainClass &apos;CommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasField.DisplayName" xml:space="preserve">
+    <value>Comment Referências Field</value>
+    <comment>DisplayName for DomainClass &apos;CommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasField/Comment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasField.Comment</value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasField/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasField/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasField/Field.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasField.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;CommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasField/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;CommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasField/Field.PropertyDisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;CommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasField.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasField</value>
+    <comment>Description for DomainClass &apos;ReviewReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasField.DisplayName" xml:space="preserve">
+    <value>Review Referências Field</value>
+    <comment>DisplayName for DomainClass &apos;ReviewReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasField/Review.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasField.Review</value>
+    <comment>Description for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasField/Review.DisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>DisplayName for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasField/Review.PropertyDisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasField/Field.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasField.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;ReviewReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasField/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;ReviewReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasField/Field.PropertyDisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;ReviewReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasField.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasField</value>
+    <comment>Description for DomainClass &apos;SubjectReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasField.DisplayName" xml:space="preserve">
+    <value>Subject Referências Field</value>
+    <comment>DisplayName for DomainClass &apos;SubjectReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasField/Subject.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasField.Subject</value>
+    <comment>Description for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasField/Subject.DisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>DisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasField/Subject.PropertyDisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasField/Field.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasField.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;SubjectReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasField/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;SubjectReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasField/Field.PropertyDisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;SubjectReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserReferênciasField.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.UserReferênciasField</value>
+    <comment>Description for DomainClass &apos;UserReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserReferênciasField.DisplayName" xml:space="preserve">
+    <value>User Referências Field</value>
+    <comment>DisplayName for DomainClass &apos;UserReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserReferênciasField/User.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.UserReferênciasField.User</value>
+    <comment>Description for DomainRole &apos;User&apos; on DomainRelationship &apos;UserReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserReferênciasField/User.DisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>DisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;UserReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserReferênciasField/User.PropertyDisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>PropertyDisplayName for DomainRole &apos;User&apos; on DomainRelationship &apos;UserReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserReferênciasField/Field.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.UserReferênciasField.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;UserReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserReferênciasField/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;UserReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserReferênciasField/Field.PropertyDisplayName" xml:space="preserve">
+    <value>User</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;UserReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasDestinoComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasDestinoComment</value>
+    <comment>Description for DomainClass &apos;CommentReferênciasDestinoComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasDestinoComment.DisplayName" xml:space="preserve">
+    <value>Comment Referências Destino Comment</value>
+    <comment>DisplayName for DomainClass &apos;CommentReferênciasDestinoComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasDestinoComment/OrigemComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasDestinoComment.OrigemComment</value>
+    <comment>Description for DomainRole &apos;OrigemComment&apos; on DomainRelationship &apos;CommentReferênciasDestinoComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasDestinoComment/OrigemComment.DisplayName" xml:space="preserve">
+    <value>Origem Comment</value>
+    <comment>DisplayName for DomainRole &apos;OrigemComment&apos; on DomainRelationship &apos;CommentReferênciasDestinoComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasDestinoComment/OrigemComment.PropertyDisplayName" xml:space="preserve">
+    <value>Destino Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;OrigemComment&apos; on DomainRelationship &apos;CommentReferênciasDestinoComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasDestinoComment/DestinoComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasDestinoComment.DestinoComment</value>
+    <comment>Description for DomainRole &apos;DestinoComment&apos; on DomainRelationship &apos;CommentReferênciasDestinoComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasDestinoComment/DestinoComment.DisplayName" xml:space="preserve">
+    <value>Destino Comment</value>
+    <comment>DisplayName for DomainRole &apos;DestinoComment&apos; on DomainRelationship &apos;CommentReferênciasDestinoComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasDestinoComment/DestinoComment.PropertyDisplayName" xml:space="preserve">
+    <value>Origem Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DestinoComment&apos; on DomainRelationship &apos;CommentReferênciasDestinoComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemReviewComment</value>
+    <comment>Description for DomainClass &apos;ModelTemReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReviewComment.DisplayName" xml:space="preserve">
+    <value>Model Tem Review Comment</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReviewComment/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemReviewComment.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReviewComment/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReviewComment/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReviewComment/ReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemReviewComment.ReviewComment</value>
+    <comment>Description for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ModelTemReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReviewComment/ReviewComment.DisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>DisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ModelTemReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemReviewComment/ReviewComment.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ModelTemReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewCommentReferênciasField.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewCommentReferênciasField</value>
+    <comment>Description for DomainClass &apos;ReviewCommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewCommentReferênciasField.DisplayName" xml:space="preserve">
+    <value>Review Comment Referências Field</value>
+    <comment>DisplayName for DomainClass &apos;ReviewCommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewCommentReferênciasField/ReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewCommentReferênciasField.ReviewComment</value>
+    <comment>Description for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ReviewCommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewCommentReferênciasField/ReviewComment.DisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>DisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ReviewCommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewCommentReferênciasField/ReviewComment.PropertyDisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ReviewCommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewCommentReferênciasField/Field.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewCommentReferênciasField.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;ReviewCommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewCommentReferênciasField/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;ReviewCommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewCommentReferênciasField/Field.PropertyDisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;ReviewCommentReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasReviewComment</value>
+    <comment>Description for DomainClass &apos;SubjectReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasReviewComment.DisplayName" xml:space="preserve">
+    <value>Subject Referências Review Comment</value>
+    <comment>DisplayName for DomainClass &apos;SubjectReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasReviewComment/Subject.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasReviewComment.Subject</value>
+    <comment>Description for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasReviewComment/Subject.DisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>DisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasReviewComment/Subject.PropertyDisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;SubjectReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasReviewComment/ReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectReferênciasReviewComment.ReviewComment</value>
+    <comment>Description for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;SubjectReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasReviewComment/ReviewComment.DisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>DisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;SubjectReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectReferênciasReviewComment/ReviewComment.PropertyDisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;SubjectReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasReviewComment</value>
+    <comment>Description for DomainClass &apos;ReviewReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasReviewComment.DisplayName" xml:space="preserve">
+    <value>Review Referências Review Comment</value>
+    <comment>DisplayName for DomainClass &apos;ReviewReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasReviewComment/Review.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasReviewComment.Review</value>
+    <comment>Description for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasReviewComment/Review.DisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>DisplayName for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasReviewComment/Review.PropertyDisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Review&apos; on DomainRelationship &apos;ReviewReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasReviewComment/ReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewReferênciasReviewComment.ReviewComment</value>
+    <comment>Description for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ReviewReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasReviewComment/ReviewComment.DisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>DisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ReviewReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewReferênciasReviewComment/ReviewComment.PropertyDisplayName" xml:space="preserve">
+    <value>Review</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;ReviewReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasReviewComment</value>
+    <comment>Description for DomainClass &apos;CommentReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasReviewComment.DisplayName" xml:space="preserve">
+    <value>Comment Referências Review Comment</value>
+    <comment>DisplayName for DomainClass &apos;CommentReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasReviewComment/Comment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasReviewComment.Comment</value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasReviewComment/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasReviewComment/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasReviewComment/ReviewComment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasReviewComment.ReviewComment</value>
+    <comment>Description for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;CommentReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasReviewComment/ReviewComment.DisplayName" xml:space="preserve">
+    <value>Review Comment</value>
+    <comment>DisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;CommentReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasReviewComment/ReviewComment.PropertyDisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ReviewComment&apos; on DomainRelationship &apos;CommentReferênciasReviewComment&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemProcess.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemProcess</value>
+    <comment>Description for DomainClass &apos;ModelTemProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemProcess.DisplayName" xml:space="preserve">
+    <value>Model Tem Process</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemProcess/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemProcess.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemProcess/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemProcess/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemProcess/Process.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemProcess.Process</value>
+    <comment>Description for DomainRole &apos;Process&apos; on DomainRelationship &apos;ModelTemProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemProcess/Process.DisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>DisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;ModelTemProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemProcess/Process.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;ModelTemProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasProcess.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasProcess</value>
+    <comment>Description for DomainClass &apos;CommentReferênciasProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasProcess.DisplayName" xml:space="preserve">
+    <value>Comment Referências Process</value>
+    <comment>DisplayName for DomainClass &apos;CommentReferênciasProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasProcess/Comment.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasProcess.Comment</value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasProcess/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasProcess/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferênciasProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasProcess/Process.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentReferênciasProcess.Process</value>
+    <comment>Description for DomainRole &apos;Process&apos; on DomainRelationship &apos;CommentReferênciasProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasProcess/Process.DisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>DisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;CommentReferênciasProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentReferênciasProcess/Process.PropertyDisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;CommentReferênciasProcess&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemNode.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemNode</value>
+    <comment>Description for DomainClass &apos;ModelTemNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemNode.DisplayName" xml:space="preserve">
+    <value>Model Tem Node</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemNode/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemNode.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemNode/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemNode/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemNode/Node.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemNode.Node</value>
+    <comment>Description for DomainRole &apos;Node&apos; on DomainRelationship &apos;ModelTemNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemNode/Node.DisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>DisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;ModelTemNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemNode/Node.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;ModelTemNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessReferênciasNode.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ProcessReferênciasNode</value>
+    <comment>Description for DomainClass &apos;ProcessReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessReferênciasNode.DisplayName" xml:space="preserve">
+    <value>Process Referências Node</value>
+    <comment>DisplayName for DomainClass &apos;ProcessReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessReferênciasNode/Process.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ProcessReferênciasNode.Process</value>
+    <comment>Description for DomainRole &apos;Process&apos; on DomainRelationship &apos;ProcessReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessReferênciasNode/Process.DisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>DisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;ProcessReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessReferênciasNode/Process.PropertyDisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;ProcessReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessReferênciasNode/Node.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ProcessReferênciasNode.Node</value>
+    <comment>Description for DomainRole &apos;Node&apos; on DomainRelationship &apos;ProcessReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessReferênciasNode/Node.DisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>DisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;ProcessReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessReferênciasNode/Node.PropertyDisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;ProcessReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeReferênciasField.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.NodeReferênciasField</value>
+    <comment>Description for DomainClass &apos;NodeReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeReferênciasField.DisplayName" xml:space="preserve">
+    <value>Node Referências Field</value>
+    <comment>DisplayName for DomainClass &apos;NodeReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeReferênciasField/Node.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.NodeReferênciasField.Node</value>
+    <comment>Description for DomainRole &apos;Node&apos; on DomainRelationship &apos;NodeReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeReferênciasField/Node.DisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>DisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;NodeReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeReferênciasField/Node.PropertyDisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;NodeReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeReferênciasField/Field.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.NodeReferênciasField.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;NodeReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeReferênciasField/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;NodeReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeReferênciasField/Field.PropertyDisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;NodeReferênciasField&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemAutomatic.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemAutomatic</value>
+    <comment>Description for DomainClass &apos;ModelTemAutomatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemAutomatic.DisplayName" xml:space="preserve">
+    <value>Model Tem Automatic</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemAutomatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemAutomatic/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemAutomatic.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemAutomatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemAutomatic/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemAutomatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemAutomatic/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Automatic</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemAutomatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemAutomatic/Automatic.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemAutomatic.Automatic</value>
+    <comment>Description for DomainRole &apos;Automatic&apos; on DomainRelationship &apos;ModelTemAutomatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemAutomatic/Automatic.DisplayName" xml:space="preserve">
+    <value>Automatic</value>
+    <comment>DisplayName for DomainRole &apos;Automatic&apos; on DomainRelationship &apos;ModelTemAutomatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemAutomatic/Automatic.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Automatic&apos; on DomainRelationship &apos;ModelTemAutomatic&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemManual.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemManual</value>
+    <comment>Description for DomainClass &apos;ModelTemManual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemManual.DisplayName" xml:space="preserve">
+    <value>Model Tem Manual</value>
+    <comment>DisplayName for DomainClass &apos;ModelTemManual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemManual/Model.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemManual.Model</value>
+    <comment>Description for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemManual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemManual/Model.DisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>DisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemManual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemManual/Model.PropertyDisplayName" xml:space="preserve">
+    <value>Manual</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Model&apos; on DomainRelationship &apos;ModelTemManual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemManual/Manual.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ModelTemManual.Manual</value>
+    <comment>Description for DomainRole &apos;Manual&apos; on DomainRelationship &apos;ModelTemManual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemManual/Manual.DisplayName" xml:space="preserve">
+    <value>Manual</value>
+    <comment>DisplayName for DomainRole &apos;Manual&apos; on DomainRelationship &apos;ModelTemManual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ModelTemManual/Manual.PropertyDisplayName" xml:space="preserve">
+    <value>Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Manual&apos; on DomainRelationship &apos;ModelTemManual&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AutomaticReferênciasNode.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.AutomaticReferênciasNode</value>
+    <comment>Description for DomainClass &apos;AutomaticReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AutomaticReferênciasNode.DisplayName" xml:space="preserve">
+    <value>Automatic Referências Node</value>
+    <comment>DisplayName for DomainClass &apos;AutomaticReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AutomaticReferênciasNode/Automatic.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.AutomaticReferênciasNode.Automatic</value>
+    <comment>Description for DomainRole &apos;Automatic&apos; on DomainRelationship &apos;AutomaticReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AutomaticReferênciasNode/Automatic.DisplayName" xml:space="preserve">
+    <value>Automatic</value>
+    <comment>DisplayName for DomainRole &apos;Automatic&apos; on DomainRelationship &apos;AutomaticReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AutomaticReferênciasNode/Automatic.PropertyDisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Automatic&apos; on DomainRelationship &apos;AutomaticReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AutomaticReferênciasNode/Node.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.AutomaticReferênciasNode.Node</value>
+    <comment>Description for DomainRole &apos;Node&apos; on DomainRelationship &apos;AutomaticReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AutomaticReferênciasNode/Node.DisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>DisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;AutomaticReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AutomaticReferênciasNode/Node.PropertyDisplayName" xml:space="preserve">
+    <value>Automatic</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;AutomaticReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ManualReferênciasNode.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ManualReferênciasNode</value>
+    <comment>Description for DomainClass &apos;ManualReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ManualReferênciasNode.DisplayName" xml:space="preserve">
+    <value>Manual Referências Node</value>
+    <comment>DisplayName for DomainClass &apos;ManualReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ManualReferênciasNode/Manual.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ManualReferênciasNode.Manual</value>
+    <comment>Description for DomainRole &apos;Manual&apos; on DomainRelationship &apos;ManualReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ManualReferênciasNode/Manual.DisplayName" xml:space="preserve">
+    <value>Manual</value>
+    <comment>DisplayName for DomainRole &apos;Manual&apos; on DomainRelationship &apos;ManualReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ManualReferênciasNode/Manual.PropertyDisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Manual&apos; on DomainRelationship &apos;ManualReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ManualReferênciasNode/Node.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ManualReferênciasNode.Node</value>
+    <comment>Description for DomainRole &apos;Node&apos; on DomainRelationship &apos;ManualReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ManualReferênciasNode/Node.DisplayName" xml:space="preserve">
+    <value>Node</value>
+    <comment>DisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;ManualReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ManualReferênciasNode/Node.PropertyDisplayName" xml:space="preserve">
+    <value>Manual</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Node&apos; on DomainRelationship &apos;ManualReferênciasNode&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.UserShape</value>
+    <comment>Description for DomainClass &apos;UserShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.UserShape.DisplayName" xml:space="preserve">
+    <value>User Shape</value>
+    <comment>DisplayName for DomainClass &apos;UserShape&apos;</comment>
+  </data>
+  <data name="UserShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.SubjectShape</value>
+    <comment>Description for DomainClass &apos;SubjectShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.SubjectShape.DisplayName" xml:space="preserve">
+    <value>Subject Shape</value>
+    <comment>DisplayName for DomainClass &apos;SubjectShape&apos;</comment>
+  </data>
+  <data name="SubjectShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ReviewShape</value>
+    <comment>Description for DomainClass &apos;ReviewShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ReviewShape.DisplayName" xml:space="preserve">
+    <value>Review Shape</value>
+    <comment>DisplayName for DomainClass &apos;ReviewShape&apos;</comment>
+  </data>
+  <data name="ReviewShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.CommentShape</value>
+    <comment>Description for DomainClass &apos;CommentShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.CommentShape.DisplayName" xml:space="preserve">
+    <value>Comment Shape</value>
+    <comment>DisplayName for DomainClass &apos;CommentShape&apos;</comment>
+  </data>
+  <data name="CommentShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="isep.edom.gorgeous.FieldShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.FieldShape</value>
+    <comment>Description for DomainClass &apos;FieldShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.FieldShape.DisplayName" xml:space="preserve">
+    <value>Field Shape</value>
+    <comment>DisplayName for DomainClass &apos;FieldShape&apos;</comment>
+  </data>
+  <data name="FieldShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FieldShapeTypeDecoratorDefaultText" xml:space="preserve">
+    <value>TypeDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="isep.edom.gorgeous.RevComShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.RevComShape</value>
+    <comment>Description for DomainClass &apos;RevComShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.RevComShape.DisplayName" xml:space="preserve">
+    <value>Rev Com Shape</value>
+    <comment>DisplayName for DomainClass &apos;RevComShape&apos;</comment>
+  </data>
+  <data name="RevComShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ProcessShape</value>
+    <comment>Description for DomainClass &apos;ProcessShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ProcessShape.DisplayName" xml:space="preserve">
+    <value>Process Shape</value>
+    <comment>DisplayName for DomainClass &apos;ProcessShape&apos;</comment>
+  </data>
+  <data name="ProcessShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.NodeShape</value>
+    <comment>Description for DomainClass &apos;NodeShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.NodeShape.DisplayName" xml:space="preserve">
+    <value>Node Shape</value>
+    <comment>DisplayName for DomainClass &apos;NodeShape&apos;</comment>
+  </data>
+  <data name="NodeShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AuMaShape.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.AuMaShape</value>
+    <comment>Description for DomainClass &apos;AuMaShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.AuMaShape.DisplayName" xml:space="preserve">
+    <value>Au Ma Shape</value>
+    <comment>DisplayName for DomainClass &apos;AuMaShape&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.HasConnector.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.HasConnector</value>
+    <comment>Description for DomainClass &apos;HasConnector&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.HasConnector.DisplayName" xml:space="preserve">
+    <value>Has Connector</value>
+    <comment>DisplayName for DomainClass &apos;HasConnector&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ByConnector.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ByConnector</value>
+    <comment>Description for DomainClass &apos;ByConnector&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ByConnector.DisplayName" xml:space="preserve">
+    <value>By Connector</value>
+    <comment>DisplayName for DomainClass &apos;ByConnector&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ExtendConnector.Description" xml:space="preserve">
+    <value>Descrição de isep.edom.gorgeous.ExtendConnector</value>
+    <comment>Description for DomainClass &apos;ExtendConnector&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.ExtendConnector.DisplayName" xml:space="preserve">
+    <value>Extend Connector</value>
+    <comment>DisplayName for DomainClass &apos;ExtendConnector&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>gorgeous (*.gorgeous)|*.gorgeous</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>gorgeous Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="isep.edom.gorgeous.gorgeousDiagram.Description" xml:space="preserve">
+    <value>Description for isep.edom.gorgeous.gorgeousDiagram</value>
+    <comment>Description for DomainClass &apos;gorgeousDiagram&apos;</comment>
+  </data>
+  <data name="isep.edom.gorgeous.gorgeousDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;gorgeousDiagram&apos;</comment>
+  </data>
+  <data name="gorgeousToolboxTab" xml:space="preserve">
+    <value>gorgeous</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="UserToolboxItem" xml:space="preserve">
+    <value>User</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="UserToolboxTooltip" xml:space="preserve">
+    <value>User</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="SubjectToolboxItem" xml:space="preserve">
+    <value>Subject</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="SubjectToolboxTooltip" xml:space="preserve">
+    <value>Subject</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ReviewToolboxItem" xml:space="preserve">
+    <value>Review</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ReviewToolboxTooltip" xml:space="preserve">
+    <value>Review</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentToolboxItem" xml:space="preserve">
+    <value>Comment</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentToolboxTooltip" xml:space="preserve">
+    <value>Comment</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="FieldToolboxItem" xml:space="preserve">
+    <value>Field</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FieldToolboxTooltip" xml:space="preserve">
+    <value>Field</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="AbsRevComToolboxItem" xml:space="preserve">
+    <value>AbsRevCom</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AbsRevComToolboxTooltip" xml:space="preserve">
+    <value>Abs Rev Com</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="SubjectHasFieldToolboxItem" xml:space="preserve">
+    <value>SubjectHasField</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="SubjectHasFieldToolboxTooltip" xml:space="preserve">
+    <value>Subject Has Field</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="SubjectHasReviewCommentToolboxItem" xml:space="preserve">
+    <value>SubjectHasReviewComment</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="SubjectHasReviewCommentToolboxTooltip" xml:space="preserve">
+    <value>Subject Has Review Comment</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UserHasFieldToolboxItem" xml:space="preserve">
+    <value>UserHasField</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="UserHasFieldToolboxTooltip" xml:space="preserve">
+    <value>User Has Field</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ReviewExtendRevComToolboxItem" xml:space="preserve">
+    <value>ReviewExtendRevCom</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ReviewExtendRevComToolboxTooltip" xml:space="preserve">
+    <value>Review Extend Rev Com</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ReviewByUserToolboxItem" xml:space="preserve">
+    <value>ReviewByUser</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ReviewByUserToolboxTooltip" xml:space="preserve">
+    <value>Review By User</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ReviewHasFieldToolboxItem" xml:space="preserve">
+    <value>ReviewHasField</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ReviewHasFieldToolboxTooltip" xml:space="preserve">
+    <value>Review Has Field</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentByUserToolboxItem" xml:space="preserve">
+    <value>CommentByUser</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentByUserToolboxTooltip" xml:space="preserve">
+    <value>Comment By User</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentHasFieldToolboxItem" xml:space="preserve">
+    <value>CommentHasField</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentHasFieldToolboxTooltip" xml:space="preserve">
+    <value>Comment Has Field</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentHasCommentToolboxItem" xml:space="preserve">
+    <value>CommentHasComment</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentHasCommentToolboxTooltip" xml:space="preserve">
+    <value>Comment Has Comment</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentExtendRevComToolboxItem" xml:space="preserve">
+    <value>CommentExtendRevCom</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentExtendRevComToolboxTooltip" xml:space="preserve">
+    <value>Comment Extend Rev Com</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RevComHasFieldToolboxItem" xml:space="preserve">
+    <value>RevComHasField</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RevComHasFieldToolboxTooltip" xml:space="preserve">
+    <value>Rev Com Has Field</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UserToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SubjectToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ReviewToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="FieldToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="AbsRevComToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SubjectHasFieldToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SubjectHasReviewCommentToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="UserHasFieldToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ReviewExtendRevComToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ReviewByUserToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ReviewHasFieldToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentByUserToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentHasFieldToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentHasCommentToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentExtendRevComToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RevComHasFieldToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

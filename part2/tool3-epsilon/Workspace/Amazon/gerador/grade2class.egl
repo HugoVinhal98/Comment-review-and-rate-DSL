@@ -1,0 +1,23 @@
+package [%=package%].[%=subpack%];
+
+
+public class [%=grade%] {
+
+	private String grade;
+	
+	public [%=grade%](String [%=grade.firstToLowerCase%]) {
+		this.[%=grade.firstToLowerCase%]=[%=grade.firstToLowerCase%];
+	}
+
+	public String get[%=grade%](){
+	return this.[%=grade.firstToLowerCase%];
+	}
+	
+	public void set[%=grade%](String [%=grade.firstToLowerCase%]){
+	 this.[%=grade.firstToLowerCase%]=[%=grade.firstToLowerCase%];
+	}
+	@Override
+	public String toString() {
+		return "[%=grade%]:"+ [%=grade.firstToLowerCase%]+"\n";
+	}
+}

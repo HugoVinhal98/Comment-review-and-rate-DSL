@@ -1,0 +1,25 @@
+package [%=package%].[%=subpack%];
+
+import java.util.List;
+
+public class [%=m.name%] {
+
+	private List<[%=m.subject.name.get(0)%]> [%=m.subject.name.get(0).firstToLowerCase%]List;
+
+	public [%=m.name%](List<[%=m.subject.name.get(0)%]> [%=m.subject.name.get(0).firstToLowerCase%]List) {
+		this.[%=m.subject.name.get(0).firstToLowerCase%]List = [%=m.subject.name.get(0).firstToLowerCase%]List;
+	}
+
+	public List<[%=m.subject.name.get(0)%]> get[%=m.subject.name.get(0)%]List() {
+		return [%=m.subject.name.get(0).firstToLowerCase%]List;
+	}
+
+	public void set[%=m.subject.name.get(0)%](List<[%=m.subject.name.get(0)%]> [%=m.subject.name.get(0).firstToLowerCase%]List) {
+		this.[%=m.subject.name.get(0).firstToLowerCase%]List = [%=m.subject.name.get(0).firstToLowerCase%]List;
+	}
+
+	@Override
+	public String toString() {
+		return " [%=m.name%] [[%=m.subject.name.get(0)%]=" + [%=m.subject.name.get(0).firstToLowerCase%]List + "]";
+	}
+}

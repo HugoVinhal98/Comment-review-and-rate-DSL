@@ -1,0 +1,46 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" language="Java" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".java" #>
+<#@ gorgeous processor="gorgeousDirectiveProcessor" requires="fileName='Sample.gorgeous'" #>
+
+package model;
+
+import java.util.List;
+
+public class <#=this.Model.Comment[0].Name#> extends <#=this.Model.ReviewComment[0].Name#> {
+
+	private Boolean <#=this.Model.Comment[0].Field[0].Name#>;
+	private <#=this.Model.Comment[0].User[0].Name#> <#=this.Model.Comment[0].User[0].Name#>;
+
+	public <#=this.Model.Comment[0].Name#>(String texto, <#=this.Model.Comment[0].User[0].Name#> <#=this.Model.Comment[0].User[0].Name#>, Boolean <#=this.Model.Comment[0].Field[0].Name#>) {
+		super(texto);
+		this.<#=this.Model.Comment[0].Field[0].Name#> = <#=this.Model.Comment[0].Field[0].Name#>;
+		this.<#=this.Model.Comment[0].User[0].Name#> = <#=this.Model.Comment[0].User[0].Name#>;
+	}
+
+	public <#=this.Model.Comment[0].User[0].Name#> getUser() {
+		return <#=this.Model.Comment[0].User[0].Name#>;
+	}
+
+	public void setUser(<#=this.Model.Comment[0].User[0].Name#> <#=this.Model.Comment[0].User[0].Name#>) {
+		this.<#=this.Model.Comment[0].User[0].Name#> = <#=this.Model.Comment[0].User[0].Name#>;
+	}
+	
+	public Boolean getHasReply() {
+		return <#=this.Model.Comment[0].Field[0].Name#>;
+	}
+
+	public void setHasReply(Boolean <#=this.Model.Comment[0].Field[0].Name#>) {
+		this.<#=this.Model.Comment[0].Field[0].Name#> = <#=this.Model.Comment[0].Field[0].Name#>;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString() + " <#=this.Model.Comment[0].Name#> [<#=this.Model.Comment[0].Field[0].Name#>=" + <#=this.Model.Comment[0].Field[0].Name#> + "utilizador"+ <#=this.Model.Comment[0].User[0].Name#> +"]";
+	}
+
+
+}

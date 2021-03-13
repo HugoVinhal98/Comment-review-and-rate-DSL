@@ -1,0 +1,52 @@
+@startuml
+Amazon --> Produto : subject
+Produto --> Preço : field
+class Preço { 
+ type : Double
+}
+Produto --> Vendedor : publisher
+Produto --> Comentario1 : comment
+class Comentario1 { 
+ hasReply : true
+}
+Comentario1 --> Processo1 : process
+Processo1 --> Automatico : automatic
+class Automatico { 
+ validation : APPROVED
+}
+Processo1 --> Manual : manual
+class Manual { 
+ validation : REJECTED
+}
+Processo1 --> NodeManual : manual
+class NodeManual { 
+ validation : APPROVED
+}
+Automatico --> REJECTED : finalProcess
+Manual --> REJECTED : finalProcess
+NodeManual --> REJECTED : finalProcess
+Produto --> Comentario2 : comment
+class Comentario2 { 
+ hasReply : false
+}
+Comentario2 --> Processo2 : process
+Processo2 --> Auto2 : automatic
+class Auto2 { 
+ validation : APPROVED
+}
+Processo2 --> Manual2 : manual
+class Manual2 { 
+ validation : APPROVED
+}
+Auto2 --> APPROVED : finalProcess
+Manual2 --> APPROVED : finalProcess
+Produto --> Review1 : review
+class Review1 { 
+ minRate : 10
+ maxRate : 1
+}
+Review1 --> Muito_bom : grade
+Review1 --> Bom : grade
+Review1 --> Mau : grade
+Review1 --> Avaliador : commentator
+@enduml

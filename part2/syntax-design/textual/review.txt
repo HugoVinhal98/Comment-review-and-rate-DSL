@@ -1,0 +1,13 @@
+{
+    review_name: {name},
+    {
+        max_rate: {maxRate},
+        min_rate: {minRate},
+        grades: {gradesArray},
+        commentator: {userName}
+    }
+}
+
+
+
+

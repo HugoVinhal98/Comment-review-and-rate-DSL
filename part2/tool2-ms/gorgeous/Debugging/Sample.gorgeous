@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0e5330f5-0624-428a-bfca-2646f3a5ca6b" xmlns="http://schemas.microsoft.com/dsltools/gorgeous">
+  <user>
+    <modelTemUser Id="bd8e8fad-5dc1-4d3e-a285-047ffa01bf35">
+      <user Id="679f6ac0-a01a-40ed-9d92-7e54f92b5a4a" name="User">
+        <field>
+          <userReferênciasField Id="1033467f-b979-40f0-b174-5b9d9f030265">
+            <fieldMoniker Id="511684f4-0272-4401-9dc7-9943171ab06b" />
+          </userReferênciasField>
+          <userReferênciasField Id="a92d4a30-4660-40ad-80e0-6c842ab27ec4">
+            <fieldMoniker Id="95bd1254-3342-420c-88ed-a1dda91fb730" />
+          </userReferênciasField>
+        </field>
+      </user>
+    </modelTemUser>
+  </user>
+  <subject>
+    <modelTemSubject Id="7fd1ae68-9aeb-403e-8cb0-672241b67933">
+      <subject Id="14af13f4-14a5-4d69-91d0-037347376395" name="Sandwich">
+        <field>
+          <subjectReferênciasField Id="1a6fc94f-ce30-4b14-be44-b07cad5ed2de">
+            <fieldMoniker Id="78fcd4be-37ad-41e4-9374-5de85d7c1dc3" />
+          </subjectReferênciasField>
+          <subjectReferênciasField Id="b85bb01b-1898-4ed5-8ec0-63f4653d838c">
+            <fieldMoniker Id="fcc98ea9-53f3-4e6d-b665-199e6f7216a1" />
+          </subjectReferênciasField>
+          <subjectReferênciasField Id="dba0f519-8ac3-4a71-a7f7-d3c31d7cecac">
+            <fieldMoniker Id="ff803b0a-2aca-4a38-a4f8-61c4bf3ba832" />
+          </subjectReferênciasField>
+          <subjectReferênciasField Id="6f985d39-03e1-4226-9260-f9bcb88efcf5">
+            <fieldMoniker Id="bf455a74-7a7c-4022-be3d-10ffc3cc75b9" />
+          </subjectReferênciasField>
+          <subjectReferênciasField Id="40cc52b8-a641-4a52-9e26-cebd7affeda6">
+            <fieldMoniker Id="68a8813b-b539-4c3f-bd1a-dd46b4d94ba4" />
+          </subjectReferênciasField>
+        </field>
+        <reviewComment>
+          <subjectReferênciasReviewComment Id="9b98a512-4627-4204-9846-afdb6de5af1e">
+            <reviewCommentMoniker Id="5c4692ee-973c-43f5-adbd-95b3bbfd4d9c" />
+          </subjectReferênciasReviewComment>
+        </reviewComment>
+      </subject>
+    </modelTemSubject>
+  </subject>
+  <review>
+    <modelTemReview Id="671a7063-c327-4072-acd3-80e25cc5b63f">
+      <review Id="b78c401e-a4d8-43fe-a62c-e0e2c0d5f0cc" name="Review">
+        <user>
+          <reviewReferênciasUser Id="b0ffeb6a-53c7-4c0a-acfa-83845596cdcb">
+            <userMoniker name="/0e5330f5-0624-428a-bfca-2646f3a5ca6b/User" />
+          </reviewReferênciasUser>
+        </user>
+        <field>
+          <reviewReferênciasField Id="84ea7de6-8bcf-4a73-86dc-ebf97c35b38a">
+            <fieldMoniker Id="99ef2ab4-3990-4b1c-9f39-c08b5ba855f4" />
+          </reviewReferênciasField>
+          <reviewReferênciasField Id="c3d08cf1-3837-4cd3-b715-e0594b6d2674">
+            <fieldMoniker Id="22ff66c1-1ec3-47e9-907b-1d215d2f9a76" />
+          </reviewReferênciasField>
+          <reviewReferênciasField Id="e3828996-c497-4d8e-b21f-0288c974254c">
+            <fieldMoniker Id="19d6fcc9-5346-4069-aaa3-d7291dbf524e" />
+          </reviewReferênciasField>
+        </field>
+        <reviewComment>
+          <reviewReferênciasReviewComment Id="e765a714-b0f4-4e65-9f85-168d460bd2d1">
+            <reviewCommentMoniker Id="5c4692ee-973c-43f5-adbd-95b3bbfd4d9c" />
+          </reviewReferênciasReviewComment>
+        </reviewComment>
+      </review>
+    </modelTemReview>
+  </review>
+  <comment>
+    <modelTemComment Id="81fc9ef7-ca3b-425c-9daa-d5d36b0e57f8">
+      <comment Id="4f04b699-5605-4598-aecf-79ec20844029" name="Comment">
+        <user>
+          <commentReferênciasUser Id="fc38ce5d-50dd-4a82-b683-e3be3d020b51">
+            <userMoniker name="/0e5330f5-0624-428a-bfca-2646f3a5ca6b/User" />
+          </commentReferênciasUser>
+        </user>
+        <field>
+          <commentReferênciasField Id="41434062-13ff-4833-bc9d-4aa692c7a6d9">
+            <fieldMoniker Id="f0880a28-8b66-44b0-b1aa-4d2bdf302517" />
+          </commentReferênciasField>
+        </field>
+        <reviewComment>
+          <commentReferênciasReviewComment Id="2a174b23-45c2-46d7-8ea7-0451cd51eb2c">
+            <reviewCommentMoniker Id="5c4692ee-973c-43f5-adbd-95b3bbfd4d9c" />
+          </commentReferênciasReviewComment>
+        </reviewComment>
+      </comment>
+    </modelTemComment>
+  </comment>
+  <field>
+    <modelTemField Id="0890b9bd-9ac5-40b2-9442-1d5dd441535c">
+      <field Id="78fcd4be-37ad-41e4-9374-5de85d7c1dc3" name="name" type="string" />
+    </modelTemField>
+    <modelTemField Id="3a4d4126-133f-44bb-8bb8-c38aa2acb8fe">
+      <field Id="fcc98ea9-53f3-4e6d-b665-199e6f7216a1" name="type" type="string" />
+    </modelTemField>
+    <modelTemField Id="667330ce-44d5-40e4-9809-3cb540fdcf4b">
+      <field Id="ff803b0a-2aca-4a38-a4f8-61c4bf3ba832" name="description" type="string" />
+    </modelTemField>
+    <modelTemField Id="539dd38f-d12e-4451-9a5b-e4430e2fd45f">
+      <field Id="68a8813b-b539-4c3f-bd1a-dd46b4d94ba4" name="image" type="string" />
+    </modelTemField>
+    <modelTemField Id="1f8fd3a1-867e-4e0f-97b4-5cee5acd279e">
+      <field Id="bf455a74-7a7c-4022-be3d-10ffc3cc75b9" name="price" type="double" />
+    </modelTemField>
+    <modelTemField Id="025aea15-9027-47db-aedd-97f126bb6a64">
+      <field Id="f0880a28-8b66-44b0-b1aa-4d2bdf302517" name="hasReply" type="boolean" />
+    </modelTemField>
+    <modelTemField Id="a1df7b63-a94f-45ce-942a-2c634fbfdd89">
+      <field Id="22ff66c1-1ec3-47e9-907b-1d215d2f9a76" name="maxInterval" type="int" />
+    </modelTemField>
+    <modelTemField Id="6252f2ff-f926-4c38-98f9-d2d46c538d92">
+      <field Id="19d6fcc9-5346-4069-aaa3-d7291dbf524e" name="minInterval" type="int" />
+    </modelTemField>
+    <modelTemField Id="adcf13be-d5e7-4822-b78c-fbd48be32312">
+      <field Id="99ef2ab4-3990-4b1c-9f39-c08b5ba855f4" name="grade" type="int" />
+    </modelTemField>
+    <modelTemField Id="0f44a8b9-2cf3-472e-8773-494a86bf3902">
+      <field Id="511684f4-0272-4401-9dc7-9943171ab06b" name="name" type="string" />
+    </modelTemField>
+    <modelTemField Id="f3c749d7-697e-4389-ae91-efe28a3915be">
+      <field Id="95bd1254-3342-420c-88ed-a1dda91fb730" name="id" type="int" />
+    </modelTemField>
+    <modelTemField Id="e1f64805-eb68-464a-95a2-1ccdaf0de6e6">
+      <field Id="04faa28d-7156-4ae1-8898-2f4c715f5bac" name="text" type="string" />
+    </modelTemField>
+  </field>
+  <reviewComment>
+    <modelTemReviewComment Id="66430a30-580a-4ba3-b923-3f35bb10f25a">
+      <reviewComment Id="5c4692ee-973c-43f5-adbd-95b3bbfd4d9c" name="ReviewComment">
+        <field>
+          <reviewCommentReferênciasField Id="b6125cda-da1c-4f41-90d7-ffa6a4b42007">
+            <fieldMoniker Id="04faa28d-7156-4ae1-8898-2f4c715f5bac" />
+          </reviewCommentReferênciasField>
+        </field>
+      </reviewComment>
+    </modelTemReviewComment>
+  </reviewComment>
+</model>

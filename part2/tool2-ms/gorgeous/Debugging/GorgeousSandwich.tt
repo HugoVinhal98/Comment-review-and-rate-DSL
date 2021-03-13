@@ -1,0 +1,32 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" language="Java" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".java" #>
+<#@ gorgeous processor="gorgeousDirectiveProcessor" requires="fileName='Sample.gorgeous'" #>
+
+package model;
+
+import java.util.List;
+
+public class GorgeousSandwich {
+
+	private List<<#=this.Model.Subject[0].Name#>> sandwichList;
+
+	public GorgeousSandwich(List<<#=this.Model.Subject[0].Name#>> sandwichList) {
+		this.sandwichList = sandwichList;
+	}
+	public List<<#=this.Model.Subject[0].Name#>> getSandwichList() {
+		return sandwichList;
+	}
+
+	public void setSandwichList(List<<#=this.Model.Subject[0].Name#>> sandwichList) {
+		this.sandwichList = sandwichList;
+	}
+
+	@Override
+	public String toString() {
+		return " Gorgeous Sandwich [sandwichList=" + sandwichList + "]";
+	}
+}

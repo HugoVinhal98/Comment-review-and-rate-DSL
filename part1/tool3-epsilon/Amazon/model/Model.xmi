@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amazon:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:amazon="http://www.example.org/amazon" xsi:schemaLocation="http://www.example.org/amazon amazon.ecore" name="Amazon">
+  <subject name="produto">
+    <publisher name="Publicador"/>
+    <reviewcomment xsi:type="amazon:Review" name="Review1" maxInterval="5">
+      <attribute name="Texto" type="String"/>
+      <attribute name="Classificacao" type="int"/>
+      <attribute name="Foto" type="String"/>
+      <attribute name="Data" type="Date"/>
+      <user name="Avaliador"/>
+      <grade name="Muito Bom"/>
+      <grade name="Bom"/>
+    </reviewcomment>
+    <reviewcomment xsi:type="amazon:Review" name="Review2">
+      <user name="Avaliador2"/>
+      <grade name="Bom"/>
+    </reviewcomment>
+    <reviewcomment xsi:type="amazon:Review" name="Review3">
+      <user name="Avaliador5654"/>
+      <grade name="Mau"/>
+    </reviewcomment>
+    <reviewcomment xsi:type="amazon:Comment" name="comentario 1">
+      <attribute name="Texto" type="String"/>
+      <attribute name="Data" type="Date"/>
+      <user name="Comentador"/>
+      <process name="Processo1" IsAccepted="yes">
+        <node xsi:type="amazon:Automatic" name="automatico 1" isAccepted="yes"/>
+        <node xsi:type="amazon:Automatic" name="automatico 2" isAccepted="yes"/>
+        <node xsi:type="amazon:Manual" name="manual 1" isAccepted="yes"/>
+        <node xsi:type="amazon:Manual" name="manual 2" isAccepted="yes"/>
+      </process>
+    </reviewcomment>
+    <reviewcomment xsi:type="amazon:Comment" name="comentario 2">
+      <attribute name="Texto" type="String"/>
+      <attribute name="Data" type="Date"/>
+      <user name="Comentador2"/>
+      <process name="Processo 2" IsAccepted="no">
+        <node xsi:type="amazon:Manual" name="manual 3" isAccepted="no"/>
+        <node xsi:type="amazon:Automatic" name="automatico 3" isAccepted="yes"/>
+      </process>
+    </reviewcomment>
+    <attribute name="Nome" type="String"/>
+    <attribute name="Descricao" type="String"/>
+    <attribute name="Preco" type="String"/>
+    <attribute name="Estado" type="String"/>
+    <attribute name="Tipo" type="String"/>
+  </subject>
+</amazon:Model>

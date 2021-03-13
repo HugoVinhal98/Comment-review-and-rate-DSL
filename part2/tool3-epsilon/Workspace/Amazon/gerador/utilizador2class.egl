@@ -1,0 +1,39 @@
+package [%=package%].[%=subpack%];
+
+
+public class [%=u.name%] {
+
+[%for(temp in u.field){%]
+	private [%=temp.type%] [%=temp.name%];
+[%}%]
+	private String userName;
+	
+	public [%=u.name%]([%for(temp in u.field){%][%=temp.type%] [%=temp.name%],[%}%]String userName) {
+	[%for(temp in u.field){%]
+		this.[%=temp.name%]=[%=temp.name%];
+[%}%]
+		this.userName=userName;
+	}
+
+	[%for(temp in u.field){%]
+	public [%=temp.type%] get[%=temp.name.firstToUpperCase()%](){
+	return [%=temp.name%];
+	}
+	
+	public void set[%=temp.name.firstToUpperCase()%]([%=temp.type%] [%=temp.name%]){
+	this.[%=temp.name%]=[%=temp.name%];
+	}
+	
+[%}%]
+	public String getUserName(){
+	return this.userName;
+	}
+	
+	public void setUserName(String userName){
+	 this.userName=userName;
+	}
+	@Override
+	public String toString() {
+		return "[%for(temp in u.field){%]\n[%=temp.name.firstToUpperCase%]:"+ [%=temp.name%] +"[%}%]\nUserName:"+ userName+"\n";
+	}
+}

@@ -1,0 +1,242 @@
+package [%=package%].[%=subpack%];
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+
+
+import [%=package%].model.[%=m.name%];
+import [%=package%].model.[%=m.subject.get(0).reviewcomment.get(1).name%];
+import [%=package%].model.Node;
+import [%=package%].model.[%=m.subject.get(0).name%];
+import [%=package%].model.[%=m.subject.get(0).publisher.get(0).name%];
+import [%=package%].model.[%=m.subject.get(0).reviewcomment.get(0).name%];
+import [%=package%].model.ReviewComment;
+import [%=package%].model.Grade;
+import [%=package%].model.[%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%];
+
+public class ModelExecution {
+
+	public static Scanner in = new Scanner(System.in);
+	public static [%=m.name%] [%=m.name.firstToLowerCase%]Aux;
+
+	public static void execute([%=m.name%] [%=m.name.firstToLowerCase%]) {
+		[%=m.name.firstToLowerCase%]Aux = [%=m.name.firstToLowerCase%];
+		boolean exit = false;
+		while (!exit) {
+			System.out.println("#####UI#####");
+			System.out.println("Please select [%=m.subject.name.get(0)%]:");
+
+			System.out.println("0- Exit");
+			List<[%=m.subject.name.get(0)%]> list[%=m.subject.name.get(0)%] = [%=m.name.firstToLowerCase%]Aux.get[%=m.subject.name.get(0)%]List();
+			int temp = 1;
+			for ([%=m.subject.name.get(0)%] [%=m.subject.name.get(0).firstToLowerCase%] : list[%=m.subject.name.get(0)%]) {
+				System.out.println(temp + "-" + [%=m.subject.name.get(0).firstToLowerCase%].get[%=m.subject.get(0).attribute.get(0).name.firstToUpperCase%]());
+				temp++;
+			}
+			int num = in.nextInt();
+
+			switch (num) {
+			case 0:
+				exit = true;
+				break;
+			default: {
+				mostrar[%=m.subject.name.get(0)%](num - 1);
+				break;
+			}
+			}
+		}
+
+	}
+
+	public static void mostrar[%=m.subject.name.get(0)%](int num1) {
+		[%=m.subject.name.get(0)%] [%=m.subject.name.get(0).firstToLowerCase%]Tela = [%=m.name.firstToLowerCase%]Aux.get[%=m.subject.name.get(0)%]List().get(num1);
+		System.out.println([%=m.subject.name.get(0).firstToLowerCase%]Tela.toString());
+		System.out.println("");
+		boolean exit = false;
+		while (!exit) {
+			System.out.println("Please select option:");
+			System.out.println("0- Exit");
+			System.out.println("1- [%=m.subject.get(0).publisher.get(0).name%]");
+			System.out.println("2- [%=m.subject.get(0).reviewcomment.get(0).name%]");
+			System.out.println("3- [%=m.subject.get(0).reviewcomment.get(1).name%]");
+			int num = in.nextInt();
+
+			switch (num) {
+			case 0:
+				exit = true;
+				break;
+			case 1:
+				mostrar[%=m.subject.get(0).publisher.get(0).name%]([%=m.subject.name.get(0).firstToLowerCase%]Tela);
+				break;
+			case 2:
+				mostrar[%=m.subject.get(0).reviewcomment.get(0).name%]([%=m.subject.name.get(0).firstToLowerCase%]Tela);
+				break;
+			case 3:
+				mostrar[%=m.subject.get(0).reviewcomment.get(1).name%]([%=m.subject.name.get(0).firstToLowerCase%]Tela);
+				break;
+			}
+
+		}
+	}
+
+	public static void mostrar[%=m.subject.get(0).publisher.get(0).name%]([%=m.subject.get(0).name%] [%=m.subject.name.get(0).firstToLowerCase%]Tela) {
+		List<[%=m.subject.get(0).publisher.get(0).name%]> [%=m.subject.get(0).publisher.get(0).name.firstToLowerCase%]Tela = [%=m.subject.name.get(0).firstToLowerCase%]Tela.get[%=m.subject.get(0).publisher.get(0).name%]List();
+		System.out.println("#####UI#####");
+		boolean exit = false;
+		while (!exit) {
+			int temp = 1;
+		System.out.println("Please select [%=m.subject.get(0).publisher.get(0).name%]:");
+			System.out.println("0- Exit");
+			for ([%=m.subject.get(0).publisher.get(0).name%] [%=m.subject.get(0).publisher.get(0).name.firstToLowerCase%] : [%=m.subject.get(0).publisher.get(0).name.firstToLowerCase%]Tela) {
+				System.out.println(temp + "-[%=m.subject.get(0).publisher.get(0).name%]" + temp);
+				temp++;
+			}
+		System.out.println("");
+			int num = in.nextInt();
+
+			switch (num) {
+			case 0:
+				exit = true;
+				break;
+			default:
+				System.out.println([%=m.subject.get(0).publisher.get(0).name.firstToLowerCase%]Tela.get(num - 1).toString());
+				break;
+			}
+		}
+	}
+
+	public static void mostrar[%=m.subject.get(0).reviewcomment.get(0).name%]([%=m.subject.get(0).name%] [%=m.subject.name.get(0).firstToLowerCase%]Tela) {
+		List<ReviewComment> reviewCommentTela = [%=m.subject.name.get(0).firstToLowerCase%]Tela.getReviewsComments();
+		List<[%=m.subject.get(0).reviewcomment.get(0).name%]> [%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%]Tela = new ArrayList<[%=m.subject.get(0).reviewcomment.get(0).name%]>();
+		for (ReviewComment test : reviewCommentTela) {
+			if (test.getClass() == [%=m.subject.get(0).reviewcomment.get(0).name%].class) {
+				[%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%]Tela.add(([%=m.subject.get(0).reviewcomment.get(0).name%]) test);
+			}
+		}
+
+		System.out.println("#####UI#####");
+		boolean exit = false;
+		while (!exit) {
+			int temp = 1;
+			System.out.println("Please select [%=m.subject.get(0).reviewcomment.get(0).name%]:");
+			System.out.println("0- Exit");
+			for ([%=m.subject.get(0).reviewcomment.get(0).name%] review : [%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%]Tela) {
+				System.out.println(temp + "-[%=m.subject.get(0).reviewcomment.get(0).name%]" +temp);
+				temp++;
+			}
+			System.out.println("");
+			int num = in.nextInt();
+
+			switch (num) {
+			case 0:
+				exit = true;
+				break;
+			default:
+				mostrar[%=m.subject.get(0).reviewcomment.get(0).name%]Detalhada([%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%]Tela.get(num - 1));
+				break;
+			}
+
+		}
+	}
+
+	public static void mostrar[%=m.subject.get(0).reviewcomment.get(0).name%]Detalhada([%=m.subject.get(0).reviewcomment.get(0).name%] [%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%]) {
+		System.out.println([%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%].toString());
+		System.out.println([%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%].get[%=m.subject.get(0).reviewcomment.get(0).user.name%]().toString());
+		System.out.println("");
+		System.out.println("#####UI#####");
+		boolean exit = false;
+		while (!exit) {
+			int temp = 1;
+			System.out.println("Please select [%=m.subject.get(0).reviewcomment.get(0).grade.get(0).name%]:");
+			System.out.println("0- Exit");
+			for ([%=m.subject.get(0).reviewcomment.get(0).grade.get(0).name%] [%=m.subject.get(0).reviewcomment.get(0).grade.get(0).name.firstToLowerCase%] : [%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%].get[%=m.subject.get(0).reviewcomment.get(0).grade.get(0).name%]List()) {
+				System.out.println(temp + "-[%=m.subject.get(0).reviewcomment.get(0).grade.get(0).name%]" + temp);
+				temp++;
+			}
+			System.out.println("");
+			int num = in.nextInt();
+
+			switch (num) {
+			case 0:
+				exit = true;
+				break;
+			default:
+				System.out.println([%=m.subject.get(0).reviewcomment.get(0).name.firstToLowerCase%].get[%=m.subject.get(0).reviewcomment.get(0).grade.get(0).name%]List().get(num - 1).toString());
+				break;
+			}
+		}
+	}
+
+	public static void mostrar[%=m.subject.get(0).reviewcomment.get(1).name%]([%=m.subject.get(0).name%] [%=m.subject.name.get(0).firstToLowerCase%]Tela) {
+		List<ReviewComment> reviewCommentTela = [%=m.subject.name.get(0).firstToLowerCase%]Tela.getReviewsComments();
+		List<[%=m.subject.get(0).reviewcomment.get(1).name%]> [%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%]Tela = new ArrayList<[%=m.subject.get(0).reviewcomment.get(1).name%]>();
+		for (ReviewComment test : reviewCommentTela) {
+			if (test.getClass() == [%=m.subject.get(0).reviewcomment.get(1).name%].class) {
+				[%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%]Tela.add(([%=m.subject.get(0).reviewcomment.get(1).name%]) test);
+			}
+		}
+
+		System.out.println("#####UI#####");
+		boolean exit = false;
+		while (!exit) {
+			int temp = 1;
+			System.out.println("Please select [%=m.subject.get(0).reviewcomment.get(1).name%]:");
+			System.out.println("0- Exit");
+			for ([%=m.subject.get(0).reviewcomment.get(1).name%] [%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%] : [%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%]Tela) {
+				System.out.println(temp + "-[%=m.subject.get(0).reviewcomment.get(1).name%]" + temp);
+				temp++;
+			}
+			System.out.println("");
+			int num = in.nextInt();
+
+			switch (num) {
+			case 0:
+				exit = true;
+				break;
+			default:
+				mostrar[%=m.subject.get(0).reviewcomment.get(1).name%]Detalhada([%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%]Tela.get(num - 1));
+				break;
+			}
+
+		}
+	}
+
+	public static void mostrar[%=m.subject.get(0).reviewcomment.get(1).name%]Detalhada([%=m.subject.get(0).reviewcomment.get(1).name%] [%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%]) {
+		System.out.println([%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%].toString());
+		System.out.println([%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%].get[%=m.subject.get(0).reviewcomment.get(1).user.name%]().toString());
+		System.out.println("");
+		System.out.println("#####UI#####");
+		boolean exit = false;
+		while (!exit) {
+			int temp = 1;
+			System.out.println("Please select [%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%]:");
+			System.out.println("0- Exit");
+			for ([%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%] [%=m.subject.get(0).reviewcomment.get(1).process.get(0).name.firstToLowerCase%] : [%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%].get[%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%]List()) {
+				System.out.println(temp + "-[%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%]" +temp);
+				temp++;
+			}
+			System.out.println("");
+			int num = in.nextInt();
+
+			switch (num) {
+			case 0:
+				exit = true;
+				break;
+			default:
+				mostrar[%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%]Detalhada([%=m.subject.get(0).reviewcomment.get(1).name.firstToLowerCase%].get[%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%]List().get(num - 1));
+				break;
+			}
+		}
+	}
+
+	public static void mostrar[%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%]Detalhada([%=m.subject.get(0).reviewcomment.get(1).process.get(0).name%] [%=m.subject.get(0).reviewcomment.get(1).process.get(0).name.firstToLowerCase%]) {
+		int i = 1;
+		for (Node node : [%=m.subject.get(0).reviewcomment.get(1).process.get(0).name.firstToLowerCase%].getNodeList()) {
+			System.out.println(i + "-" + node.getClass().getSimpleName() + "-" + node.getIsAccepted());
+			i++;
+		}
+		System.out.println("");
+	}
+}

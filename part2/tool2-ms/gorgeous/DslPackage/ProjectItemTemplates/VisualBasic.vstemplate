@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{2996d91c-bf57-4418-8437-a3f9fe433288}</TemplateID>
+		<Name Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="103"/>
+		<Description Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="102"/>
+		<Icon Package="{37a54dce-c7ce-43f1-b9ea-0718eb16847c}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>gorgeous.gorgeous</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.gorgeous">gorgeous.gorgeous</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.gorgeous.diagram">gorgeous.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

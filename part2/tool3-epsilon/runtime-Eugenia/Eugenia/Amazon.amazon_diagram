@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:amazon="http://www.example.org/amazon" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_A-KlQFN7Eeuv8qfBVszpZg" type="Amazon" name="Amazon.amazon_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_EAobQFN8Eeuv8qfBVszpZg" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EApCUFN8Eeuv8qfBVszpZg" type="5011"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_EApCUVN8Eeuv8qfBVszpZg" type="7001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_EApCUlN8Eeuv8qfBVszpZg" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_EA_noFN8Eeuv8qfBVszpZg" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_EBAOsFN8Eeuv8qfBVszpZg" type="5004"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EBAOsVN8Eeuv8qfBVszpZg" type="7004"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EBAOslN8Eeuv8qfBVszpZg" type="7005">
+          <children xmi:type="notation:Node" xmi:id="_EBFuQFN8Eeuv8qfBVszpZg" type="3003">
+            <children xmi:type="notation:DecorationNode" xmi:id="_EBGVUFN8Eeuv8qfBVszpZg" type="5002"/>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_EBGVUVN8Eeuv8qfBVszpZg" type="7011"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_EBFuQVN8Eeuv8qfBVszpZg"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_EBFuQlN8Eeuv8qfBVszpZg" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_EBFuQ1N8Eeuv8qfBVszpZg"/>
+            <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_EBFuRFN8Eeuv8qfBVszpZg"/>
+            <element xmi:type="amazon:User" href="Amazon.amazon#//@subject.0/@reviewcomment.0/@user"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EBFuRVN8Eeuv8qfBVszpZg" y="1" width="496" height="255"/>
+          </children>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EBAOs1N8Eeuv8qfBVszpZg" type="7006"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_EA_noVN8Eeuv8qfBVszpZg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_EA_nolN8Eeuv8qfBVszpZg" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_EA_no1N8Eeuv8qfBVszpZg"/>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_EA_npFN8Eeuv8qfBVszpZg"/>
+        <element xmi:type="amazon:Review" href="Amazon.amazon#//@subject.0/@reviewcomment.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EA_npVN8Eeuv8qfBVszpZg" y="-3" width="546" height="358"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_EBAOtFN8Eeuv8qfBVszpZg" type="3005">
+        <children xmi:type="notation:DecorationNode" xmi:id="_EBAOulN8Eeuv8qfBVszpZg" type="5008"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EBAOu1N8Eeuv8qfBVszpZg" type="7007"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EBAOvFN8Eeuv8qfBVszpZg" type="7008"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EBAOvVN8Eeuv8qfBVszpZg" type="7009"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_EBAOtVN8Eeuv8qfBVszpZg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_EBAOtlN8Eeuv8qfBVszpZg" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_EBAOt1N8Eeuv8qfBVszpZg"/>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_EBAOuFN8Eeuv8qfBVszpZg"/>
+        <element xmi:type="amazon:Comment" href="Amazon.amazon#//@subject.0/@reviewcomment.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EBAOuVN8Eeuv8qfBVszpZg" x="585" y="-3" width="316" height="316"/>
+      </children>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_EApCU1N8Eeuv8qfBVszpZg" type="7003"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_EAobQVN8Eeuv8qfBVszpZg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_EAobQlN8Eeuv8qfBVszpZg" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_EAobQ1N8Eeuv8qfBVszpZg"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_EAobRFN8Eeuv8qfBVszpZg"/>
+    <element xmi:type="amazon:Subject" href="Amazon.amazon#//@subject.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EAobRVN8Eeuv8qfBVszpZg" x="30" y="30" width="1036" height="656"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_A-KlQVN7Eeuv8qfBVszpZg"/>
+  <element xmi:type="amazon:Model" href="Amazon.amazon#/"/>
+</notation:Diagram>

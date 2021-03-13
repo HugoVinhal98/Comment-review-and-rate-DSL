@@ -1,0 +1,186 @@
+pre {
+	var package = Model.all.first().name.toLowerCase();
+	var packageModel = "model";
+	var packageFactory = "factory";
+	var packageUi = "ui";
+}
+rule Interaction2Class{
+	
+	template : "interaction2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageFactory}
+	
+	target : package +"/"+packageFactory+ "/Interaction.java"
+	
+}
+
+rule SFactory2Class{
+	
+	template : "sfactory2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageFactory}
+	
+	target : package +"/"+packageFactory+  "/SFactory.java"
+	
+}
+
+rule Factory2Class{
+	
+	template : "factory2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageFactory}
+	
+	target : package +"/"+packageFactory+  "/Factory.java"
+	
+}
+
+rule FactoryImpl2Class {
+	
+	template : "factoryimpl2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageFactory}
+	
+	target : package +"/"+packageFactory+  "/FactoryImpl.java"
+	
+}
+rule Factory2Impl2Class {
+	
+	template : "factory2impl2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageFactory}
+	
+	target : package +"/"+packageFactory+  "/Factory2Impl.java"
+	
+}
+
+rule MainClass{
+	
+	template : "main2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageUi}
+	
+	target : package +"/"+packageUi+  "/Main.java"
+	
+}
+
+rule Model2Class
+	transform m : Model {
+	
+	template : "amazon2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package +"/"+packageModel+  "/"+m.name+".java"
+	
+}
+
+rule Node2Class{
+	
+	template : "node2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package +"/"+packageModel+ "/Node.java"
+	
+}
+
+rule NodeAutomatic2Class
+	transform n : Automatic {
+	
+	template : "nodes2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package +"/"+packageModel+ "/"+n.name+".java"
+	
+}
+rule NodeManual2Class
+	transform n : Manual {
+	
+	template : "nodes2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package +"/"+packageModel+ "/"+n.name+".java"
+	
+}
+rule Process2Class
+	transform p : Process {
+	
+	template : "process2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package +"/"+packageModel+ "/"+p.name+".java"
+	
+}
+rule ReviewComment2Class {
+	
+	template : "reviewComment2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package + "/"+packageModel+"/ReviewComment.java"
+	
+}
+rule Comment2Class
+	transform c : Comment {
+	
+	template : "comment2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package + "/"+packageModel+"/"+c.name+".java"
+	
+}
+rule Review2Class
+	transform r : Review {
+	
+	template : "review2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package +"/"+packageModel+ "/"+r.name+".java"
+	
+}
+rule User2Class
+	transform u : User {
+	
+	template : "Utilizador2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package +"/"+packageModel+ "/"+u.name+".java"
+	
+}
+rule Grade2Class {
+	
+	template : "grade2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel,"grade"="Grade"}
+	
+	target : package +"/"+packageModel+ "/Grade.java"
+	
+}
+rule Subject2Class
+	transform s : Subject {
+	
+	template : "subject2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageModel}
+	
+	target : package +"/"+packageModel+ "/"+s.name+".java"
+	
+}
+
+rule ModelExecution2Class
+	transform m : Model {
+	
+	template : "modelExecution2class.egl"
+	
+	parameters : Map {"package" = package,"subpack"=packageUi}
+	
+	target : package +"/"+packageUi+ "/ModelExecution.java"
+	
+}
+

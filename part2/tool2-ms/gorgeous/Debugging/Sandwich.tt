@@ -1,0 +1,86 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" language="Java" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".java" #>
+<#@ gorgeous processor="gorgeousDirectiveProcessor" requires="fileName='Sample.gorgeous'" #>
+
+package model;
+
+import java.util.List;
+
+public class <#=this.Model.Subject[0].Name#> {
+
+    private String <#=this.Model.Subject[0].Field[0].Name#>;
+    private String <#=this.Model.Subject[0].Field[1].Name#>;
+    private String <#=this.Model.Subject[0].Field[4].Name#>;
+    private String <#=this.Model.Subject[0].Field[2].Name#>;
+    private Integer <#=this.Model.Subject[0].Field[3].Name#>;
+    private List<<#=this.Model.ReviewComment[0].Name#>> reviewsComments;
+
+    public <#=this.Model.Subject[0].Name#>(String <#=this.Model.Subject[0].Field[0].Name#>, String <#=this.Model.Subject[0].Field[1].Name#>, Integer <#=this.Model.Subject[0].Field[3].Name#>, String <#=this.Model.Subject[0].Field[4].Name#>, String <#=this.Model.Subject[0].Field[2].Name#>, List<<#=this.Model.ReviewComment[0].Name#>> reviewsComments) {
+        this.<#=this.Model.Subject[0].Field[0].Name#> = <#=this.Model.Subject[0].Field[0].Name#>;
+        this.<#=this.Model.Subject[0].Field[1].Name#> = <#=this.Model.Subject[0].Field[1].Name#>;
+        this.<#=this.Model.Subject[0].Field[4].Name#> = <#=this.Model.Subject[0].Field[4].Name#>;
+        this.<#=this.Model.Subject[0].Field[2].Name#> = <#=this.Model.Subject[0].Field[2].Name#>;
+        this.<#=this.Model.Subject[0].Field[3].Name#> = <#=this.Model.Subject[0].Field[3].Name#>;
+        this.reviewsComments = reviewsComments;
+    }
+
+    public Integer getPreco() {
+        return <#=this.Model.Subject[0].Field[3].Name#>;
+    }
+
+    public void setPreco(Integer <#=this.Model.Subject[0].Field[3].Name#>) {
+        this.<#=this.Model.Subject[0].Field[3].Name#> = <#=this.Model.Subject[0].Field[3].Name#>;
+    }
+
+    public List<<#=this.Model.ReviewComment[0].Name#>> getReviewsComments() {
+        return reviewsComments;
+    }
+
+    public void setReviewsComments(List<<#=this.Model.ReviewComment[0].Name#>> reviewsComments) {
+        this.reviewsComments = reviewsComments;
+    }
+
+    public String getNome() {
+        return <#=this.Model.Subject[0].Field[0].Name#>;
+    }
+
+    public void setNome(String <#=this.Model.Subject[0].Field[0].Name#>) {
+        this.<#=this.Model.Subject[0].Field[0].Name#> = <#=this.Model.Subject[0].Field[0].Name#>;
+    }
+
+    public String getTipo() {
+        return <#=this.Model.Subject[0].Field[1].Name#>;
+    }
+
+    public void setTipo(String <#=this.Model.Subject[0].Field[0].Name#>) {
+        this.<#=this.Model.Subject[0].Field[1].Name#> = <#=this.Model.Subject[0].Field[1].Name#>;
+    }
+
+    public String getImagem() {
+        return <#=this.Model.Subject[0].Field[4].Name#>;
+    }
+
+    public void setImagem(String <#=this.Model.Subject[0].Field[4].Name#>) {
+        this.<#=this.Model.Subject[0].Field[4].Name#> = <#=this.Model.Subject[0].Field[4].Name#>;
+    }
+
+    public String getDescricao() {
+        return <#=this.Model.Subject[0].Field[2].Name#>;
+    }
+
+    public void setDescricao(String <#=this.Model.Subject[0].Field[2].Name#>) {
+        this.<#=this.Model.Subject[0].Field[2].Name#> = <#=this.Model.Subject[0].Field[2].Name#>;
+    }
+
+
+    @Override
+    public String toString() {
+        return "<#=this.Model.Subject[0].Name#> [<#=this.Model.Subject[0].Field[0].Name#>=" + <#=this.Model.Subject[0].Field[0].Name#> + "<#=this.Model.Subject[0].Field[1].Name#>=" + <#=this.Model.Subject[0].Field[1].Name#> + ", <#=this.Model.Subject[0].Field[4].Name#>=" + <#=this.Model.Subject[0].Field[4].Name#> + ", <#=this.Model.Subject[0].Field[2].Name#>=" + <#=this.Model.Subject[0].Field[2].Name#> + ", <#=this.Model.Subject[0].Field[3].Name#>=" + <#=this.Model.Subject[0].Field[3].Name#>
+                + ", reviewsComments=" + reviewsComments + "]";
+    }
+
+}

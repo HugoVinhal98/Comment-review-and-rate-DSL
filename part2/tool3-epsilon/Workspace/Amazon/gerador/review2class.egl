@@ -1,0 +1,75 @@
+package [%=package%].[%=subpack%];
+
+import java.util.List;
+
+public class [%=r.name%] extends ReviewComment {
+
+
+	private int maxInterval;
+	private int minInterval;
+	private [%=r.user.name%] [%=r.user.name.firstToLowerCase%];
+	private List<[%=r.grade.get(0).name%]> [%=r.grade.get(0).name.firstToLowerCase%]List;
+[%for(temp in r.attribute){%]
+	private [%=temp.type%] [%=temp.name%];
+[%}%]
+
+	public [%=r.name%]([%for(temp in r.attribute){%] [%=temp.type%] [%=temp.name%],[%}%] List<[%=r.grade.get(0).name%]> [%=r.grade.get(0).name.firstToLowerCase%]List, String texto, [%=r.user.name%] [%=r.user.name.firstToLowerCase%], int max,int min) {
+		super(texto);
+		this.[%=r.user.name.firstToLowerCase%]=[%=r.user.name.firstToLowerCase%];
+		this.[%=r.grade.get(0).name.firstToLowerCase%]List = [%=r.grade.get(0).name.firstToLowerCase%]List;
+		this.maxInterval=max;
+		this.minInterval=min;
+		[%for(temp in r.attribute){%]
+		this.[%=temp.name%]=[%=temp.name%];
+[%}%]
+	}
+
+[%for(temp in r.attribute){%]
+	public [%=temp.type%] get[%=temp.name.firstToUpperCase()%](){
+		return [%=temp.name%];
+	}
+	
+	public void set[%=temp.name.firstToUpperCase()%]([%=temp.type%] [%=temp.name%]){
+	this.[%=temp.name%]=[%=temp.name%];
+	}
+	
+[%}%]
+	public [%=r.user.name%] get[%=r.user.name%]() {
+		return [%=r.user.name.firstToLowerCase%];
+	}
+
+	public void set[%=r.user.name%]([%=r.user.name%] [%=r.user.name.firstToLowerCase%]) {
+		this.[%=r.user.name.firstToLowerCase%] = [%=r.user.name.firstToLowerCase%];
+	}
+	public List<[%=r.grade.get(0).name%]> get[%=r.grade.get(0).name%]List() {
+		return [%=r.grade.get(0).name.firstToLowerCase%]List;
+	}
+
+	public void set[%=r.grade.get(0).name%]List(List<[%=r.grade.get(0).name%]> [%=r.grade.get(0).name.firstToLowerCase%]List) {
+		this.[%=r.grade.get(0).name.firstToLowerCase%]List = [%=r.grade.get(0).name.firstToLowerCase%]List;
+	}
+	
+	
+	public int getMaxInterval() {
+		return maxInterval;
+	}
+
+	public void setMaxInterval(int maxInterval) {
+		this.maxInterval = maxInterval;
+	}
+
+	public int getMinInterval() {
+		return minInterval;
+	}
+
+	public void setMinInterval(int minInterval) {
+		this.minInterval = minInterval;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString() + "[%for(temp in r.attribute){%] \n[%=temp.name.firstToUpperCase%]:"+[%=temp.name%]+",[%}%]\nMaxInterval:" + maxInterval + "\nMinInterval=" + minInterval;
+	}
+
+		
+}

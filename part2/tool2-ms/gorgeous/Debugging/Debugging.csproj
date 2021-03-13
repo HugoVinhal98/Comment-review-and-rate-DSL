@@ -1,0 +1,196 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="16.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.10318</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCEBDCCC-E838-4060-ABBA-7CF33198DEF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Debugging</RootNamespace>
+    <AssemblyName>Debugging</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Dsl\GeneratedCode\gorgeousSchema.xsd">
+      <Link>gorgeousSchema.xsd</Link>
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="gorgeousReport.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>gorgeousReport.txt</LastGenOutput>
+    </None>
+    <None Include="gorgeousReportVB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>gorgeousReportVB.txt</LastGenOutput>
+    </None>
+    <None Include="Sample.gorgeous" />
+    <None Include="Sample.gorgeous.diagram">
+      <DependentUpon>Sample.gorgeous</DependentUpon>
+    </None>
+    <None Include="Test.gorgeous" />
+    <None Include="Test.gorgeous.diagram">
+      <DependentUpon>Test.gorgeous</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4df5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Comment.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Comment.tt</DependentUpon>
+    </Content>
+    <Content Include="Comment.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Comment.java</LastGenOutput>
+    </Content>
+    <Content Include="Factory.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Factory.tt</DependentUpon>
+    </Content>
+    <Content Include="Factory.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Factory.java</LastGenOutput>
+    </Content>
+    <Content Include="Factory2Impl.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Factory2Impl.tt</DependentUpon>
+    </Content>
+    <Content Include="Factory2Impl.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Factory2Impl.java</LastGenOutput>
+    </Content>
+    <Content Include="FactoryImpl.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FactoryImpl.tt</DependentUpon>
+    </Content>
+    <Content Include="FactoryImpl.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>FactoryImpl.java</LastGenOutput>
+    </Content>
+    <Content Include="gorgeousReport.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gorgeousReport.tt</DependentUpon>
+    </Content>
+    <Content Include="gorgeousReportVB.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gorgeousReportVB.tt</DependentUpon>
+    </Content>
+    <Content Include="GorgeousSandwich.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GorgeousSandwich.tt</DependentUpon>
+    </Content>
+    <Content Include="GorgeousSandwich.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>GorgeousSandwich.java</LastGenOutput>
+    </Content>
+    <Content Include="Interaction.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Interaction.tt</DependentUpon>
+    </Content>
+    <Content Include="Interaction.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Interaction.java</LastGenOutput>
+    </Content>
+    <Content Include="Main.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Main.tt</DependentUpon>
+    </Content>
+    <Content Include="Main.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Main.java</LastGenOutput>
+    </Content>
+    <Content Include="ModelExecution.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelExecution.tt</DependentUpon>
+    </Content>
+    <Content Include="ModelExecution.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelExecution.java</LastGenOutput>
+    </Content>
+    <Content Include="Review.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Review.tt</DependentUpon>
+    </Content>
+    <Content Include="Review.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Review.java</LastGenOutput>
+    </Content>
+    <Content Include="ReviewComment.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReviewComment.tt</DependentUpon>
+    </Content>
+    <Content Include="ReviewComment.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ReviewComment.java</LastGenOutput>
+    </Content>
+    <Content Include="Sandwich.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sandwich.tt</DependentUpon>
+    </Content>
+    <Content Include="Sandwich.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Sandwich.java</LastGenOutput>
+    </Content>
+    <Content Include="User.java">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>User.tt</DependentUpon>
+    </Content>
+    <Content Include="User.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>User.java</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+{
+    comment_name: {name},
+    {
+        has_reply: {hasReply},
+        processes: {processesArray},
+        commentator: {userName}
+    }
+}

@@ -1,0 +1,52 @@
+package [%=package%].[%=subpack%];
+
+import java.util.List;
+
+public class [%=s.name%] {
+
+[%for(temp in s.attribute){%]
+	private [%=temp.type%] [%=temp.name%];
+[%}%]
+	private List<[%=s.publisher.name.get(0)%]> [%=s.publisher.name.get(0).firstToLowerCase%]List;
+	private List<ReviewComment> reviewsComments;
+
+	public [%=s.name%]([%for(temp in s.attribute){%][%=temp.type%] [%=temp.name%], [%}%]List<[%=s.publisher.name.get(0)%]> [%=s.publisher.name.get(0).firstToLowerCase%]List,
+			List<ReviewComment> reviewsComments) {
+	[%for(temp in s.attribute){%]
+		this.[%=temp.name%]=[%=temp.name%];
+[%}%]
+		this.[%=s.publisher.name.get(0).firstToLowerCase%]List = [%=s.publisher.name.get(0).firstToLowerCase%]List;
+		this.reviewsComments = reviewsComments;
+	}
+
+		[%for(temp in s.attribute){%]
+	public [%=temp.type%] get[%=temp.name.firstToUpperCase()%](){
+	return [%=temp.name%];
+	}
+	
+	public void set[%=temp.name.firstToUpperCase()%]([%=temp.type%] [%=temp.name%]){
+	this.[%=temp.name%]=[%=temp.name%];
+	}
+	
+[%}%]
+	public List<ReviewComment> getReviewsComments() {
+		return reviewsComments;
+	}
+
+	public void setReviewsComments(List<ReviewComment> reviewsComments) {
+		this.reviewsComments = reviewsComments;
+	}
+
+	public List<[%=s.publisher.name.get(0)%]> get[%=s.publisher.name.get(0)%]List() {
+		return [%=s.publisher.name.get(0).firstToLowerCase%]List;
+	}
+
+	public void set[%=s.publisher.name.get(0)%]List(List<[%=s.publisher.name.get(0)%]> [%=s.publisher.name.get(0).firstToLowerCase%]List) {
+		this.[%=s.publisher.name.get(0).firstToLowerCase%]List = [%=s.publisher.name.get(0).firstToLowerCase%]List;
+	}
+
+	@Override
+	public String toString() {
+		return "[%for(temp in s.attribute){%]\n[%=temp.name.firstToUpperCase%]:"+ [%=temp.name%] +"[%}%]\n";
+	}
+}

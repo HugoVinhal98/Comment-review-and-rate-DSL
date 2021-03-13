@@ -1,0 +1,7 @@
+# Tracing options for the Amazon.diagram plug-in
+
+# Common issues
+Amazon.diagram/debug=false
+
+# Visual IDs
+Amazon.diagram/debug/visualID=false

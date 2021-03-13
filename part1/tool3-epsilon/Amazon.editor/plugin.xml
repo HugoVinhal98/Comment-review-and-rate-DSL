@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated amazon -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="amazon.presentation.AmazonModelWizardID"
+            name="%_UI_AmazonModelWizard_label"
+            class="amazon.presentation.AmazonModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/AmazonModelFile.gif">
+         <description>%_UI_AmazonModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated amazon -->
+      <editor
+            id="amazon.presentation.AmazonEditorID"
+            name="%_UI_AmazonEditor_label"
+            icon="icons/full/obj16/AmazonModelFile.gif"
+            extensions="amazon"
+            class="amazon.presentation.AmazonEditor"
+            contributorClass="amazon.presentation.AmazonActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

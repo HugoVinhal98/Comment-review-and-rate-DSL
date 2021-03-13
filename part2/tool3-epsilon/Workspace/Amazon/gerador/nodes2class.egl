@@ -1,0 +1,16 @@
+package [%=package%].[%=subpack%];
+
+public class [%=n.name%] extends Node {
+
+	public [%=n.name%](String isAccepted) {
+		super(isAccepted);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return super.toString() + " [%=n.name%] []";
+	}
+
+	
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="50,0,53,0" name="EDOM.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="16,0,54,0" name="EDOM.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ded156d8-708e-4940-a9a0-a73b18b9838a(EDOM.textGen)/5381454500230322957">
+    <file name="Model_TextGen.java">
+      <node id="5381454500230322957" at="21,54,22,55" concept="5" />
+      <node id="5381454500230926818" at="22,55,23,30" concept="1" />
+      <node id="5381454500230728649" at="24,121,25,173" concept="1" />
+      <node id="5381454500230994198" at="26,113,27,161" concept="1" />
+      <node id="5381454500231070962" at="27,161,28,177" concept="1" />
+      <node id="5381454500231360797" at="30,113,31,165" concept="1" />
+      <node id="5381454500232031739" at="33,150,34,161" concept="1" />
+      <node id="5381454500232713874" at="34,161,35,182" concept="1" />
+      <node id="5381454500232724816" at="36,111,37,163" concept="1" />
+      <node id="8202670797644744503" at="37,163,38,42" concept="5" />
+      <node id="5381454500233053853" at="39,158,40,169" concept="1" />
+      <node id="5381454500233585175" at="40,169,41,193" concept="1" />
+      <node id="8202670797644751579" at="42,101,43,39" concept="1" />
+      <node id="5381454500233358872" at="46,152,47,163" concept="1" />
+      <node id="5381454500233699103" at="47,163,48,187" concept="1" />
+      <node id="8202670797644760391" at="49,98,50,39" concept="1" />
+      <node id="8202670797644764896" at="53,158,54,128" concept="1" />
+      <node id="8202670797644783811" at="56,152,57,125" concept="1" />
+      <node id="5381454500232237818" at="61,148,62,159" concept="1" />
+      <node id="5381454500232328648" at="62,159,63,257" concept="1" />
+      <node id="5381454500232430550" at="64,106,65,179" concept="1" />
+      <node id="5381454500232528738" at="66,9,67,214" concept="1" />
+      <node id="5381454500230654005" at="69,5,70,26" concept="1" />
+      <node id="5381454500230322957" at="74,0,75,0" concept="7" trace="name$MnvL" />
+      <node id="5381454500230322957" at="75,0,76,0" concept="7" trace="type$$_Zl" />
+      <node id="5381454500230322957" at="76,0,77,0" concept="7" trace="hasReply$Tgsu" />
+      <node id="5381454500230322957" at="77,0,78,0" concept="7" trace="validation$AH2N" />
+      <node id="5381454500230322957" at="78,0,79,0" concept="7" trace="minRate$ZUbl" />
+      <node id="5381454500230322957" at="79,0,80,0" concept="7" trace="maxRate$ZOLY" />
+      <node id="5381454500230322957" at="83,0,84,0" concept="7" trace="attribute$ZtzL" />
+      <node id="5381454500230322957" at="84,0,85,0" concept="7" trace="publisher$Zu1N" />
+      <node id="5381454500230322957" at="85,0,86,0" concept="7" trace="process$RRiw" />
+      <node id="5381454500230322957" at="86,0,87,0" concept="7" trace="grade$R6q3" />
+      <node id="5381454500230322957" at="87,0,88,0" concept="7" trace="commentator$exx0" />
+      <node id="5381454500230322957" at="88,0,89,0" concept="7" trace="subject$Pb$g" />
+      <node id="5381454500230322957" at="92,0,93,0" concept="7" trace="Automatic$A1" />
+      <node id="5381454500230322957" at="93,0,94,0" concept="7" trace="Manual$_y" />
+      <node id="5381454500230322957" at="94,0,95,0" concept="7" trace="Comment$Y1" />
+      <node id="5381454500230322957" at="95,0,96,0" concept="7" trace="Review$6G" />
+      <node id="5381454500231358915" at="29,7,32,7" concept="2" />
+      <node id="8202670797644744863" at="41,193,44,13" concept="3" />
+      <node id="8202670797644753489" at="48,187,51,13" concept="3" />
+      <node id="8202670797644761840" at="52,11,55,11" concept="2" />
+      <node id="8202670797644780541" at="55,11,58,11" concept="2" />
+      <node id="5381454500232428420" at="63,257,66,9" concept="2" />
+      <node id="5381454500230992502" at="25,173,29,7" concept="2" />
+      <node id="5381454500232941694" at="38,42,45,11" concept="2" />
+      <node id="5381454500233353194" at="45,11,52,11" concept="2" />
+      <node id="5381454500232229645" at="60,7,68,7" concept="2" />
+      <node id="5381454500232723463" at="35,182,59,9" concept="2" />
+      <node id="5381454500231939152" at="32,7,60,7" concept="2" />
+      <node id="5381454500230727415" at="23,30,69,5" concept="2" />
+      <node id="5381454500230322957" at="20,0,72,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5381454500231358921" at="30,113,31,165" />
+      <scope id="8202670797644744865" at="42,101,43,39" />
+      <scope id="8202670797644753491" at="49,98,50,39" />
+      <scope id="8202670797644761846" at="53,158,54,128" />
+      <scope id="8202670797644780547" at="56,152,57,125" />
+      <scope id="5381454500232428426" at="64,106,65,179" />
+      <scope id="5381454500230992508" at="26,113,28,177" />
+      <scope id="5381454500231358915" at="29,7,32,7">
+        <var name="publisher" id="5381454500231358917" />
+      </scope>
+      <scope id="8202670797644761840" at="52,11,55,11">
+        <var name="automatic" id="8202670797644761842" />
+      </scope>
+      <scope id="8202670797644780541" at="55,11,58,11">
+        <var name="manual" id="8202670797644780543" />
+      </scope>
+      <scope id="5381454500232428420" at="63,257,66,9">
+        <var name="grade" id="5381454500232428422" />
+      </scope>
+      <scope id="5381454500230992502" at="25,173,29,7">
+        <var name="attribute" id="5381454500230992504" />
+      </scope>
+      <scope id="5381454500232941700" at="39,158,44,13" />
+      <scope id="5381454500233353200" at="46,152,51,13" />
+      <scope id="5381454500232229651" at="61,148,67,214" />
+      <scope id="5381454500232941694" at="38,42,45,11">
+        <var name="automatic" id="5381454500232941696" />
+      </scope>
+      <scope id="5381454500233353194" at="45,11,52,11">
+        <var name="manual" id="5381454500233353196" />
+      </scope>
+      <scope id="5381454500232229645" at="60,7,68,7">
+        <var name="review" id="5381454500232229647" />
+      </scope>
+      <scope id="5381454500232723469" at="36,111,58,11">
+        <var name="finalString" id="8202670797644744504" />
+      </scope>
+      <scope id="5381454500232723463" at="35,182,59,9">
+        <var name="process" id="5381454500232723465" />
+      </scope>
+      <scope id="5381454500231939158" at="33,150,59,9" />
+      <scope id="5381454500231939152" at="32,7,60,7">
+        <var name="comment" id="5381454500231939154" />
+      </scope>
+      <scope id="5381454500230727421" at="24,121,68,7" />
+      <scope id="5381454500230727415" at="23,30,69,5">
+        <var name="subject" id="5381454500230727417" />
+      </scope>
+      <scope id="5381454500230322957" at="21,54,70,26">
+        <var name="tgs" id="5381454500230322957" />
+      </scope>
+      <scope id="5381454500230322957" at="20,0,72,0">
+        <var name="ctx" id="5381454500230322957" />
+      </scope>
+      <unit id="5381454500230322957" at="91,0,97,0" name="EDOM.textGen.Model_TextGen$CONCEPTS" />
+      <unit id="5381454500230322957" at="73,0,81,0" name="EDOM.textGen.Model_TextGen$PROPS" />
+      <unit id="5381454500230322957" at="82,0,90,0" name="EDOM.textGen.Model_TextGen$LINKS" />
+      <unit id="5381454500230322957" at="19,0,98,0" name="EDOM.textGen.Model_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5381454500230322957" at="26,39,27,35" concept="6" />
+      <node id="5381454500230322957" at="35,56,36,47" concept="5" />
+      <node id="5381454500230322957" at="36,47,37,50" concept="5" />
+      <node id="5381454500230322957" at="37,50,38,84" concept="1" />
+      <node id="5381454500230322957" at="38,84,39,17" concept="0" />
+      <node id="8202670797645476063" at="43,55,44,22" concept="6" />
+      <node id="5381454500230322957" at="46,60,47,16" concept="6" />
+      <node id="5381454500230322957" at="43,0,46,0" concept="8" trace="getFileName_Model#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5381454500230322957" at="46,0,49,0" concept="8" trace="getFileExtension_Model#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5381454500230322957" at="34,58,40,7" concept="3" />
+      <scope id="5381454500230322957" at="26,39,27,35" />
+      <scope id="5381454500230322957" at="43,55,44,22" />
+      <scope id="5381454500230322957" at="46,60,47,16" />
+      <scope id="5381454500230322957" at="43,0,46,0">
+        <var name="node" id="5381454500230322957" />
+      </scope>
+      <scope id="5381454500230322957" at="46,0,49,0">
+        <var name="node" id="5381454500230322957" />
+      </scope>
+      <scope id="5381454500230322957" at="35,56,39,17">
+        <var name="ext" id="5381454500230322957" />
+        <var name="fname" id="5381454500230322957" />
+      </scope>
+    </file>
+  </root>
+</debug-info>
+

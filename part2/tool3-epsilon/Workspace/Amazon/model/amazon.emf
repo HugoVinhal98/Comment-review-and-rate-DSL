@@ -1,0 +1,110 @@
+@"http://www.eclipse.org/OCL/Import"(ecore="http://www.eclipse.org/emf/2002/Ecore")
+@gmf
+@namespace(uri="http://www.example.org/amazon", prefix="amazon")
+package amazon;
+
+@gmf.diagram
+@gmf.node(label="name", color="122,207,245", figure="rectangle")
+class Model {
+	attr String name;
+
+	@gmf.compartment
+	val Subject[*] subject;
+}
+
+@gmf.node(label="name", color="102,255,102", figure="rectangle")
+class Subject {
+	attr String name;
+
+	@gmf.compartment
+	val User[*] publisher;
+
+	@gmf.compartment
+	val ReviewComment[*] reviewcomment;
+
+	@gmf.compartment
+	val Field[*] attribute;
+}
+
+@gmf.node(label="name", color="255,255,51", figure="rectangle")
+class Field {
+	attr String name;
+	attr FieldType type;
+}
+
+@gmf.node(label="name", color="153,255,255", figure="rectangle")
+class User {
+	attr String name;
+
+	@gmf.compartment
+	val Field[*] field;
+}
+
+@gmf.node(label="name", color="204,153,255", figure="rectangle")
+abstract class ReviewComment {
+	attr String name;
+
+	@gmf.compartment
+	val Field[*] attribute;
+
+	@gmf.compartment
+	val User[1] user;
+}
+
+@gmf.node(label="name", color="255,153,255", figure="rectangle")
+class Review extends ReviewComment {
+	attr int[1] maxInterval;
+	attr int[1] minInterval;
+
+	@gmf.compartment
+	val Grade[+] grade;
+}
+
+@gmf.node(label="name", color="255,153,255", figure="rectangle")
+class Comment extends ReviewComment {
+
+	@gmf.compartment
+	val Process[*] process;
+	readonly id attr boolean[1] reply;
+}
+
+@gmf.node(label="name", color="255,102,102", figure="rectangle")
+class Process {
+
+	@gmf.compartment
+	val Node[*] node;
+	attr String name;
+}
+
+@gmf.node(label="name", color="255,255,0", figure="rectangle")
+abstract class Node {
+	attr String name;
+	attr IsAccepted isAccepted;
+}
+
+@gmf.node(label="name", color="204,204,0", figure="rectangle")
+class Automatic extends Node {
+}
+
+@gmf.node(label="name", color="204,204,0", figure="rectangle")
+class Manual extends Node {
+}
+
+@gmf.node(label="name", color="122,207,245", figure="rectangle")
+class Grade {
+	attr String name;
+}
+
+@gmf.node(label="name")
+enum IsAccepted {
+	Accepted = 0;
+	Rejected = 1;
+}
+
+@gmf.node(label="name")
+enum FieldType {
+	String = 0;
+	Boolean = 1;
+	Integer = 2;
+}
+

@@ -1,0 +1,4 @@
+package [%=package%].[%=subpack%];
+
+public class Factory2Impl extends FactoryImpl implements Factory {
+}
